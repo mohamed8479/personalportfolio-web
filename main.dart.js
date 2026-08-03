@@ -18629,7 +18629,7 @@ if(a.as!==q)return q?-1:1
 return 0},
 axA(a,b){var s=A.a1(b).h("ae<1,d3>")
 s=A.a_(new A.ae(b,new A.VM(),s),s.h("at.E"))
-return A.ax1(!0,s,a,B.Gu,!0,B.Ce,null)},
+return A.ax1(!0,s,a,B.Gt,!0,B.Ce,null)},
 ak5(a){var s
 try{a.cS()}catch(s){a.GE()}a.w=B.Te
 try{a.bB(A.aFI())}catch(s){}},
@@ -19230,7 +19230,7 @@ _.as=!0
 _.at=!1
 _.$ti=d},
 aob(a,b){var s
-if(a===b)return new A.DV(B.Gv)
+if(a===b)return new A.DV(B.Gu)
 s=A.c([],t.fJ)
 A.c8()
 a.ku(new A.Yv(b,A.aJ(t.u),s))
@@ -24380,7 +24380,7 @@ DB(){var s=this.Q
 s===$&&A.a()
 return s},
 qK(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.Gs
+if(a<0||b<0)return B.Gr
 s=this.a
 s===$&&A.a()
 s=s.a
@@ -29237,7 +29237,7 @@ if(m.f!==B.lZ){m.f=B.lZ
 m.Ie()}}return m.d.a.R1(a)},
 Ie(){var s,r
 for(s=this.w,r=0;r<s.length;++r)s[r].$1(this.f)},
-QZ(a){if(B.b.v(B.Gg,a))return this.f===B.fb
+QZ(a){if(B.b.v(B.Gf,a))return this.f===B.fb
 return!1}}
 A.Wi.prototype={
 $0(){return new A.ir(Date.now(),0,!1)},
@@ -35254,7 +35254,7 @@ if(o>0)return s
 return null}}
 A.a9m.prototype={
 F(a,b){this.Gh(0,b,0,b.length,!1)},
-b8(a){this.Gh(0,B.Gk,0,0,!0)}}
+b8(a){this.Gh(0,B.Gj,0,0,!0)}}
 A.ahn.prototype={
 Gh(a,b,c,d,e){var s=this.b.a7c(b,c,d,e)
 if(s!=null)this.a.kW(s,0,s.length,e)}}
@@ -41434,7 +41434,7 @@ n=o.e
 o=o.cx
 r=q.ga0a()
 q.a.toString
-return new A.zb(p,p,p,new A.ad2(),p,p,p,p,p,n,B.Iz,p,p,p,B.Gl,q.ga0h(),o,p,B.O9,s,p,r,p,p,B.ml,!1,!1,p,p,p,new A.n0(q,t.bT))},
+return new A.zb(p,p,p,new A.ad2(),p,p,p,p,p,n,B.Iz,p,p,p,B.Gk,q.ga0h(),o,p,B.O9,s,p,r,p,p,B.ml,!1,!1,p,p,p,new A.n0(q,t.bT))},
 J(a){var s,r=null,q=A.vj(!1,!1,this.VR(a),r,r,r,r,!0,r,r,r,new A.ad3(),r,r)
 this.a.toString
 s=this.d
@@ -41538,7 +41538,7 @@ A.rl.prototype={
 G(){return"_CornerId."+this.b}}
 A.kf.prototype={}
 A.q5.prototype={
-iP(){var s,r,q,p=this,o=A.aEk(B.Gc,new A.a0S(p,p.b.gb7().a4(0,p.a.gb7()))),n=p.a
+iP(){var s,r,q,p=this,o=A.aEk(B.Gb,new A.a0S(p,p.b.gb7().a4(0,p.a.gb7()))),n=p.a
 n.toString
 s=o.a
 r=p.mp(n,s)
@@ -44691,7 +44691,7 @@ gfP(){return A.aGr()},
 Ai(a,b,c,d,e,f){return A.awP(a,b,c,d,e,f)}}
 A.H1.prototype={
 Vk(a){var s=t.Tr
-s=A.a_(new A.ae(B.Gb,new A.a28(a),s),s.h("at.E"))
+s=A.a_(new A.ae(B.Ga,new A.a28(a),s),s.h("at.E"))
 return s},
 j(a,b){if(b==null)return!1
 if(this===b)return!0
@@ -48867,7 +48867,7 @@ Q0(a){var s=this.b,r=s.a.c.DF(a.a4(0,s.gfp()))
 if(r==null||s.gfp().j(0,B.k))return r
 return new A.n1(r.a.dC(s.gfp()),r.b,r.c)},
 u0(){var s,r,q=this.b,p=q.gfp()
-if(!isFinite(p.a)||!isFinite(p.b))return B.Gt
+if(!isFinite(p.a)||!isFinite(p.b))return B.Gs
 s=q.f
 if(s==null){s=q.a.c.u0()
 q.f=s}if(p.j(0,B.k))r=s
@@ -55715,7 +55715,7 @@ break
 case 1:return A.J(q,r)}})
 return A.K($async$yu,r)},
 XW(a,b){var s,r,q,p
-if(a===b)return B.Gq
+if(a===b)return B.Gp
 s=A.c([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.lA(B.dK,a)
@@ -56951,7 +56951,7 @@ A.lt.prototype={}
 A.Ho.prototype={
 jd(a,b,c){var s,r,q,p,o,n=$.aj.ai$.d.c
 if(n==null||n.e==null)return!1
-for(s=t.v,r=0;r<2;++r){q=B.Gh[r]
+for(s=t.v,r=0;r<2;++r){q=B.Gg[r]
 p=n.e
 p.toString
 o=A.ajA(p,q,s)
@@ -57025,7 +57025,7 @@ this.e.ep(a)}}
 A.lT.prototype={
 k(a){return"Entry#"+A.bz(this)+"("+this.d.k(0)+")"}}
 A.tE.prototype={
-aa(){return new A.zh(A.aJ(t.me),B.Gw,null,null)},
+aa(){return new A.zh(A.aJ(t.me),B.Gv,null,null)},
 ac5(a,b){return this.w.$2(a,b)},
 aa_(a,b){return A.aEG().$2(a,b)}}
 A.zh.prototype={
@@ -60747,7 +60747,7 @@ j(a,b){var s=this
 if(b==null)return!1
 if(J.V(b)!==A.w(s))return!1
 return b instanceof A.c5&&b.a===s.a&&b.b==s.b&&b.d===s.d&&A.cQ(null,null)},
-gu(a){return A.S(this.a,this.b,null,this.d,A.bF(B.Gr),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.S(this.a,this.b,null,this.d,A.bF(B.Gq),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a){return"IconData(U+"+B.d.jj(B.i.kq(this.a,16).toUpperCase(),5,"0")+")"}}
 A.n7.prototype={
 bT(a){return!this.w.j(0,a.w)},
@@ -62028,7 +62028,7 @@ h=r&&e
 c=r?e:c.CW
 if(c==null)c=B.ja
 r=r&&e
-g=new A.we(b,s,q,p,m,o,n,a,h===!0,a0,a1,i,d,l,k,j,c,new A.uC(e),B.Go,r===!0)
+g=new A.we(b,s,q,p,m,o,n,a,h===!0,a0,a1,i,d,l,k,j,c,new A.uC(e),B.Gn,r===!0)
 if(!g.j(0,f.e))f.a3(new A.adk(f,g))},
 un(){if(this.d==null)this.mO()},
 Mh(){this.mO()},
@@ -62362,7 +62362,7 @@ r.N(0,s.Pi(null,l))
 l.a.toString
 q=r.a
 p=0
-for(;!1;++p){o=B.Gm[p]
+for(;!1;++p){o=B.Gl[p]
 n=l.c
 n.toString
 m=new A.fO(o.AH(n),null,!0,B.k0,B.br,new A.oO(new ($.SF())(B.br)),B.br)
@@ -62716,7 +62716,7 @@ J(a){var s,r,q=this,p=null,o=q.gZM(),n=A.pG(a),m=q.bx$,l=q.d
 l===$&&A.a()
 s=q.a.ay
 if(l.gbE()==null){r=q.gFu()
-r=J.pW(r.slice(0),A.a1(r).c)}else r=B.Gn
+r=J.pW(r.slice(0),A.a1(r).c)}else r=B.Gm
 return new A.n4(p,new A.dB(new A.a1O(q,a),A.q3(B.bx,new A.Di(!1,A.aka(A.vj(!0,p,A.a7Z(m,new A.qe(r,s,l)),p,p,p,q.y,!1,p,p,p,p,p,!0),n),p),p,o,q.ga0A(),p,p,o),p,t.w3),p)}}
 A.a1N.prototype={
 $1(a){var s=this.a.c
@@ -67639,7 +67639,7 @@ r.tB()
 return s.aK()},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gyw(),p=0;p<s.length;s.length===r||(0,A.A)(s),++p)s[p].M(0,q)
-o.b=B.Gp
+o.b=B.Go
 o.y=!1
 o.dE()},
 cL(a,b){return a.jY(b)},
@@ -70705,7 +70705,7 @@ $1(a){var s=null
 return new A.bG(B.lK,A.cm(A.c([A.aH(s,s,B.l,s,s,new A.aF(this.a.a.d,s,s,s,s,s,B.aB),s,6,s,s,s,s,6),B.d_,A.el(A.bf(a,B.cm,A.bh().$2$color$fontSize(B.b7,14),s),1)],t.p),B.x,B.t,B.r,0),s)},
 $S:92}
 A.LS.prototype={
-J(a){var s=null,r=A.bX(a,s,t.w).w.a.a>768,q=a.a9(t.J).f?B.FR:B.Ga,p=r?60:16,o=A.c([new A.co(A.ti("Exp\xe9riences","Experience",a),B.u,B.ak,s),B.N0],t.p),n=A.a1(q).h("dz<1>")
+J(a){var s=null,r=A.bX(a,s,t.w).w.a.a>768,q=a.a9(t.J).f?B.FY:B.GJ,p=r?60:16,o=A.c([new A.co(A.ti("Exp\xe9riences","Experience",a),B.u,B.ak,s),B.N0],t.p),n=A.a1(q).h("dz<1>")
 if(r){n=new A.dz(q,n)
 o.push(A.bV(n.gcM(n).cs(0,new A.ab2(q),t.xY).c5(0),B.x,B.t,B.r))}else{n=new A.dz(q,n)
 o.push(A.bV(n.gcM(n).cs(0,new A.ab3(q),t.EL).c5(0),B.x,B.t,B.r))}return A.aH(s,A.bV(o,B.x,B.t,B.r),B.l,B.dw,s,s,s,s,s,new A.al(p,80,p,80),s,s,s)}}
@@ -70894,7 +70894,7 @@ m=A.el(A.fX(A.aH(i,A.kY(j.w?B.fd:B.fe,B.h,i,32),B.l,i,i,new A.aF(m,i,l,i,i,i,B.a
 l=A.a7(64,B.h.n()>>>16&255,B.h.n()>>>8&255,B.h.n()&255)
 k=A.bw(2)
 k=A.cc(i,A.aH(i,A.nf(new A.aeg(j)),B.l,i,i,new A.aF(l,i,i,k,i,i,B.w),i,3,i,i,i,i,i),B.E,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,new A.aeh(j,a),i,i,i,i,!1,B.O)
-q.push(A.a2R(0,A.eI(A.cc(i,A.ajD(A.aH(i,A.bV(A.c([m,new A.bG(B.CO,A.bV(A.c([k,B.xm,A.cm(A.c([A.cc(i,A.kY(j.w?B.fd:B.fe,B.h,i,20),B.E,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,p,i,i,i,i,i,i,!1,B.O),B.eh,A.bf(j.oI(j.y)+" / "+j.oI(j.z),i,A.bh().$2$color$fontSize(B.K,11),i),B.xo,A.cc(i,B.Eb,B.E,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,new A.aei(j,a),i,i,i,i,i,i,!1,B.O)],r),B.x,B.t,B.r,0)],r),B.x,B.t,B.r),i)],r),B.x,B.j1,B.r),B.l,i,i,new A.aF(i,i,i,i,i,new A.hK(B.cv,B.cu,B.bE,n,B.FY,i),B.w),i,i,i,i,i,i,i),B.c6,o),B.E,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,p,i,i,i,i,i,i,!1,B.O),B.aj,i,new A.aej(j),new A.aek(j),i)))}return A.aH(i,A.Ef(s,A.fL(B.W,q,B.V,B.aS)),B.l,i,i,new A.aF(B.lq,i,i,h,i,i,B.w),i,b,i,i,i,i,1/0)},
+q.push(A.a2R(0,A.eI(A.cc(i,A.ajD(A.aH(i,A.bV(A.c([m,new A.bG(B.CO,A.bV(A.c([k,B.xm,A.cm(A.c([A.cc(i,A.kY(j.w?B.fd:B.fe,B.h,i,20),B.E,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,p,i,i,i,i,i,i,!1,B.O),B.eh,A.bf(j.oI(j.y)+" / "+j.oI(j.z),i,A.bh().$2$color$fontSize(B.K,11),i),B.xo,A.cc(i,B.Eb,B.E,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,new A.aei(j,a),i,i,i,i,i,i,!1,B.O)],r),B.x,B.t,B.r,0)],r),B.x,B.t,B.r),i)],r),B.x,B.j1,B.r),B.l,i,i,new A.aF(i,i,i,i,i,new A.hK(B.cv,B.cu,B.bE,n,B.FX,i),B.w),i,i,i,i,i,i,i),B.c6,o),B.E,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,p,i,i,i,i,i,i,!1,B.O),B.aj,i,new A.aej(j),new A.aek(j),i)))}return A.aH(i,A.Ef(s,A.fL(B.W,q,B.V,B.aS)),B.l,i,i,new A.aF(B.lq,i,i,h,i,i,B.w),i,b,i,i,i,i,1/0)},
 a1n(a){var s=this.a.c
 if(s==null||J.fR(s))return
 A.asJ(A.a7(235,B.j.n()>>>16&255,B.j.n()>>>8&255,B.j.n()&255),new A.aeq(this),a,t.z)},
@@ -74679,8 +74679,8 @@ B.yq=new A.cR(B.wr,B.wr,B.H,B.H)
 B.bE=new A.Jp(0,"clamp")
 B.m=new A.l(1,0.11764705882352941,0.5647058823529412,1,B.e)
 B.dv=new A.l(1,0,0.807843137254902,0.8196078431372549,B.e)
-B.Gf=s([B.m,B.dv],t.e)
-B.at=new A.hK(B.hm,B.kc,B.bE,B.Gf,null,null)
+B.Ge=s([B.m,B.dv],t.e)
+B.at=new A.hK(B.hm,B.kc,B.bE,B.Ge,null,null)
 B.w=new A.DN(0,"rectangle")
 B.yB=new A.aF(null,null,null,B.yq,null,B.at,B.w)
 B.aB=new A.DN(1,"circle")
@@ -74959,7 +74959,7 @@ B.zE=new A.a81()
 B.a3=new A.a84()
 B.c3=new A.a86()
 B.d5=new A.JN(0,0,0,0)
-B.Go=s([],A.au("y<Vi>"))
+B.Gn=s([],A.au("y<Vi>"))
 B.Ud=new A.a8s()
 B.aG={}
 B.ru=new A.b6(B.aG,[],t.li)
@@ -75492,8 +75492,8 @@ B.DJ=new A.c5(58822,"MaterialIcons",!1)
 B.FN=s(["Flutter","Dart","Kotlin","Swift"],t.s)
 B.rp=new A.b6(B.cf,["Mobile",B.DJ,B.FN],t.Q)
 B.DL=new A.c5(61396,"MaterialIcons",!1)
-B.Gi=s(["NestJS","Next.js 15","TypeScript","REST API","Swagger"],t.s)
-B.rr=new A.b6(B.cf,["Backend & Web",B.DL,B.Gi],t.Q)
+B.Gh=s(["NestJS","Next.js 15","TypeScript","REST API","Swagger"],t.s)
+B.rr=new A.b6(B.cf,["Backend & Web",B.DL,B.Gh],t.Q)
 B.m1=new A.c5(62444,"MaterialIcons",!1)
 B.mj=s(["PostgreSQL","pgvector","MongoDB","Redis","MySQL","Supabase","Firebase"],t.s)
 B.Is=new A.b6(B.cf,["Bases de donn\xe9es",B.m1,B.mj],t.Q)
@@ -75503,12 +75503,12 @@ B.G1=s(["Docker","Kubernetes","GitHub Actions","Jenkins","AWS S3","Stripe","Sent
 B.rq=new A.b6(B.cf,["Infra & DevOps",B.m0,B.G1],t.Q)
 B.F2=s([B.rp,B.rr,B.Is,B.Iu,B.rq],t.Mq)
 B.Fo=s([4,9,14,19],t.t)
-B.GG=s([137,80,78,71,13,10,26,10],t.Z)
+B.GF=s([137,80,78,71,13,10,26,10],t.Z)
 B.Ei=new A.l0(0,"png")
 B.Eq=new A.iy(B.Ei,!1,0,"png")
-B.Eg=new A.jD(B.GG,B.Eq,0,"png")
-B.GH=s([71,73,70,56,55,97],t.Z)
-B.Ef=new A.jD(B.GH,B.ff,1,"gif87a")
+B.Eg=new A.jD(B.GF,B.Eq,0,"png")
+B.GG=s([71,73,70,56,55,97],t.Z)
+B.Ef=new A.jD(B.GG,B.ff,1,"gif87a")
 B.G9=s([71,73,70,56,57,97],t.Z)
 B.Ee=new A.jD(B.G9,B.ff,2,"gif89a")
 B.F1=s([255,216,255],t.Z)
@@ -75535,16 +75535,6 @@ B.h_=new A.k5(5,"end")
 B.FJ=s([B.cl,B.d2,B.bl,B.ek,B.aL,B.h_],A.au("y<k5>"))
 B.FL=s([B.hp,B.hq],A.au("y<tM>"))
 B.FO=s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298],t.t)
-B.bS={year:0,location:1,role:2,company:3,tasks:4}
-B.FM=s(["Development of new features and integration of AI models for an Employee Empowerment application, improving employee engagement and productivity."],t.s)
-B.IF=new A.b6(B.bS,["2026 (ongoing)","Tunis","Flutter Developer (Internship)","Value Digital",B.FM],t.Q)
-B.GL=s(["Design and development of an educational mobile app integrating AI-powered personalized revision paths (LLaMA), with flashcards and adaptive quizzes, optimizing student learning efficiency."],t.s)
-B.IG=new A.b6(B.bS,["07-09/2025","Tunis","Mobile Developer","MK Talent",B.GL],t.Q)
-B.GP=s(["Development of a complete e-commerce application in Flutter with ExpressJS backend, integrating an AI recommendation engine and optimized interface, improving user experience and conversion rate."],t.s)
-B.IE=new A.b6(B.bS,["06-08/2025","Nabeul","Flutter Mobile Developer","Krenova Consulting",B.GP],t.Q)
-B.FP=s(["Development of an agricultural nursery management application with ReactJS and ASP.NET Web API, ensuring an intuitive interface and efficient data management."],t.s)
-B.IH=new A.b6(B.bS,["07-08/2024","Tunis","React Frontend Developer","Belive Technology",B.FP],t.Q)
-B.FR=s([B.IF,B.IG,B.IE,B.IH],t.Mq)
 B.GR=new A.jK("en",null,"US")
 B.ml=s([B.GR],t.ss)
 B.Tf=new A.kg(0,0)
@@ -75554,7 +75544,17 @@ B.Tj=new A.kg(6,0.11)
 B.Th=new A.kg(8,0.12)
 B.Tg=new A.kg(12,0.14)
 B.mm=s([B.Tf,B.Tk,B.Ti,B.Tj,B.Th,B.Tg],A.au("y<kg>"))
-B.FY=s([0.5,1],t.n)
+B.FX=s([0.5,1],t.n)
+B.bS={year:0,location:1,role:2,company:3,tasks:4}
+B.FM=s(["Development of new features and integration of AI models for an Employee Empowerment application, improving employee engagement and productivity."],t.s)
+B.IB=new A.b6(B.bS,["01-07/2026","Tunis","Flutter Developer (Internship)","Value Digital",B.FM],t.Q)
+B.GL=s(["Design and development of an educational mobile app integrating AI-powered personalized revision paths (LLaMA), with flashcards and adaptive quizzes, optimizing student learning efficiency."],t.s)
+B.IG=new A.b6(B.bS,["07-09/2025","Tunis","Mobile Developer","MK Talent",B.GL],t.Q)
+B.GP=s(["Development of a complete e-commerce application in Flutter with ExpressJS backend, integrating an AI recommendation engine and optimized interface, improving user experience and conversion rate."],t.s)
+B.IF=new A.b6(B.bS,["06-08/2025","Nabeul","Flutter Mobile Developer","Krenova Consulting",B.GP],t.Q)
+B.FP=s(["Development of an agricultural nursery management application with ReactJS and ASP.NET Web API, ensuring an intuitive interface and efficient data management."],t.s)
+B.IH=new A.b6(B.bS,["07-08/2024","Tunis","React Frontend Developer","Belive Technology",B.FP],t.Q)
+B.FY=s([B.IB,B.IG,B.IF,B.IH],t.Mq)
 B.FZ=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
 B.xp=new A.yx(0,"left")
 B.xq=new A.yx(1,"right")
@@ -75574,17 +75574,8 @@ B.zQ=new A.mw(0,"auto")
 B.zR=new A.mw(1,"full")
 B.zS=new A.mw(2,"chromium")
 B.G8=s([B.zQ,B.zR,B.zS,B.c4],A.au("y<mw>"))
-B.GA=s(["D\xe9veloppement de nouvelles fonctionnalit\xe9s et int\xe9gration de mod\xe8les d'IA pour une application d'Employee Empowerment, am\xe9liorant l'engagement et la productivit\xe9 des employ\xe9s."],t.s)
-B.IC=new A.b6(B.bS,["2026 (en cours)","Tunis","D\xe9veloppeur Flutter (Stage PFE)","Value Digital",B.GA],t.Q)
-B.GN=s(["Conception et d\xe9veloppement d'une application mobile \xe9ducative int\xe9grant des parcours de r\xe9vision personnalis\xe9s par IA (LLaMA), avec fiches synth\xe9tiques et quiz adaptatifs, optimisant l'efficacit\xe9 d'apprentissage des \xe9tudiants."],t.s)
-B.II=new A.b6(B.bS,["07-09/2025","Tunis","D\xe9veloppeur Mobile","MK Talent",B.GN],t.Q)
-B.Gd=s(["D\xe9veloppement d'une application e-commerce compl\xe8te en Flutter avec backend ExpressJS, int\xe9grant un moteur de recommandation IA et une interface optimis\xe9e, ce qui a permis d'am\xe9liorer l'exp\xe9rience utilisateur et le taux de conversion."],t.s)
-B.IB=new A.b6(B.bS,["06-08/2025","Nabeul","D\xe9veloppeur Mobile Flutter","Krenova Consulting",B.Gd],t.Q)
-B.GB=s(["R\xe9alisation d'une application de gestion de p\xe9pini\xe8res agricoles avec ReactJS et ASP.NET Web API, en assurant une interface intuitive et une gestion efficace des donn\xe9es."],t.s)
-B.ID=new A.b6(B.bS,["07-08/2024","Tunis","D\xe9veloppeur Frontend React","Belive Technology",B.GB],t.Q)
-B.Ga=s([B.IC,B.II,B.IB,B.ID],t.Mq)
 B.bD=new A.eu(1,"fuchsia")
-B.Gb=s([B.aH,B.bD,B.av,B.bi,B.bj,B.bk],A.au("y<eu>"))
+B.Ga=s([B.aH,B.bD,B.av,B.bi,B.bj,B.bk],A.au("y<eu>"))
 B.xQ=new A.rl(0,"topLeft")
 B.xT=new A.rl(3,"bottomRight")
 B.Ta=new A.kf(B.xQ,B.xT)
@@ -75593,34 +75584,43 @@ B.xR=new A.rl(1,"topRight")
 B.xS=new A.rl(2,"bottomLeft")
 B.Tb=new A.kf(B.xR,B.xS)
 B.Tc=new A.kf(B.xS,B.xR)
-B.Gc=s([B.Ta,B.Td,B.Tb,B.Tc],A.au("y<kf>"))
-B.Gg=s(["click","scroll"],t.s)
+B.Gb=s([B.Ta,B.Td,B.Tb,B.Tc],A.au("y<kf>"))
+B.Gf=s(["click","scroll"],t.s)
 B.yJ=new A.p5()
 B.jm=new A.In(1,"page")
 B.jn=new A.fc(B.b6,B.jm)
-B.Gh=s([B.yJ,B.jn],A.au("y<aT>"))
-B.Gq=s([],t.QP)
+B.Gg=s([B.yJ,B.jn],A.au("y<aT>"))
+B.Gp=s([],t.QP)
 B.mq=s([],A.au("y<aHa>"))
-B.Gu=s([],t.D)
+B.Gt=s([],t.D)
 B.mr=s([],t.SE)
-B.Gv=s([],t.fJ)
-B.Gt=s([],t.ER)
-B.Gl=s([],t.tc)
+B.Gu=s([],t.fJ)
+B.Gs=s([],t.ER)
+B.Gk=s([],t.tc)
 B.fk=s([],t.jl)
-B.Gn=s([],t.wi)
-B.Gm=s([],A.au("y<ap2<@>>"))
+B.Gm=s([],t.wi)
+B.Gl=s([],A.au("y<ap2<@>>"))
 B.iL=s([],t.AO)
-B.Gp=s([],t.D1)
+B.Go=s([],t.D1)
 B.iK=s([],t.l)
 B.mo=s([],t.s)
 B.ap=s([],t.oU)
-B.Gs=s([],t.Lx)
-B.Gw=s([],t.p)
-B.Gk=s([],t.t)
+B.Gr=s([],t.Lx)
+B.Gv=s([],t.p)
+B.Gj=s([],t.t)
 B.mp=s([],t.ee)
-B.Gr=s([],t.XS)
+B.Gq=s([],t.XS)
 B.dK=s([B.c_,B.bp,B.eB,B.eC,B.eD],t.QP)
 B.ms=s([B.cC,B.f8,B.f9,B.p,B.M,B.ae,B.ao,B.bv,B.cD],A.au("y<eD>"))
+B.Gz=s(["D\xe9veloppement de nouvelles fonctionnalit\xe9s et int\xe9gration de mod\xe8les d'IA pour une application d'Employee Empowerment, am\xe9liorant l'engagement et la productivit\xe9 des employ\xe9s."],t.s)
+B.ID=new A.b6(B.bS,["01-07/2026","Tunis","D\xe9veloppeur Flutter (Stage PFE)","Value Digital",B.Gz],t.Q)
+B.GN=s(["Conception et d\xe9veloppement d'une application mobile \xe9ducative int\xe9grant des parcours de r\xe9vision personnalis\xe9s par IA (LLaMA), avec fiches synth\xe9tiques et quiz adaptatifs, optimisant l'efficacit\xe9 d'apprentissage des \xe9tudiants."],t.s)
+B.II=new A.b6(B.bS,["07-09/2025","Tunis","D\xe9veloppeur Mobile","MK Talent",B.GN],t.Q)
+B.Gc=s(["D\xe9veloppement d'une application e-commerce compl\xe8te en Flutter avec backend ExpressJS, int\xe9grant un moteur de recommandation IA et une interface optimis\xe9e, ce qui a permis d'am\xe9liorer l'exp\xe9rience utilisateur et le taux de conversion."],t.s)
+B.IC=new A.b6(B.bS,["06-08/2025","Nabeul","D\xe9veloppeur Mobile Flutter","Krenova Consulting",B.Gc],t.Q)
+B.GA=s(["R\xe9alisation d'une application de gestion de p\xe9pini\xe8res agricoles avec ReactJS et ASP.NET Web API, en assurant une interface intuitive et une gestion efficace des donn\xe9es."],t.s)
+B.IE=new A.b6(B.bS,["07-08/2024","Tunis","D\xe9veloppeur Frontend React","Belive Technology",B.GA],t.Q)
+B.GJ=s([B.ID,B.II,B.IC,B.IE],t.Mq)
 B.cK=new A.fG(0,"controlModifier")
 B.cL=new A.fG(1,"shiftModifier")
 B.cM=new A.fG(2,"altModifier")
@@ -76272,38 +76272,38 @@ B.Fe=s([4294968072,null,null,8589935161],t.Z)
 B.G5=s([8589934850,8589934850,8589934851,null],t.Z)
 B.rx=new A.cu(["*",B.Fh,"+",B.Fi,"-",B.Fj,".",B.Fk,"/",B.Fl,"0",B.Fm,"1",B.Fn,"2",B.Fp,"3",B.Fr,"4",B.Fs,"5",B.Ft,"6",B.Fu,"7",B.Fv,"8",B.Fw,"9",B.Fy,"Alt",B.G2,"AltGraph",B.F6,"ArrowDown",B.F7,"ArrowLeft",B.F8,"ArrowRight",B.F9,"ArrowUp",B.Fa,"Clear",B.Ff,"Control",B.G3,"Delete",B.F5,"End",B.Fb,"Enter",B.F4,"Home",B.Fc,"Insert",B.Fg,"Meta",B.G4,"PageDown",B.Fd,"PageUp",B.Fe,"Shift",B.G5],A.au("cu<n,G<o?>>"))
 B.Fx=s([B.mA,null,null,B.rg],t.L)
-B.Gx=s([B.r2,null,null,B.rh],t.L)
+B.Gw=s([B.r2,null,null,B.rh],t.L)
 B.FQ=s([B.r3,null,null,B.ri],t.L)
 B.G6=s([B.r4,null,null,B.ca],t.L)
 B.EZ=s([B.r5,null,null,B.rj],t.L)
-B.GI=s([B.r6,null,null,B.iY],t.L)
-B.GF=s([B.r7,null,null,B.dU],t.L)
+B.GH=s([B.r6,null,null,B.iY],t.L)
+B.GE=s([B.r7,null,null,B.dU],t.L)
 B.FD=s([B.r8,null,null,B.cb],t.L)
 B.GM=s([B.r9,null,null,B.dV],t.L)
-B.GE=s([B.ra,null,null,B.cc],t.L)
+B.GD=s([B.ra,null,null,B.cc],t.L)
 B.FB=s([B.rb,null,null,B.iZ],t.L)
 B.F3=s([B.rc,null,null,B.cd],t.L)
 B.FK=s([B.rd,null,null,B.dW],t.L)
-B.Gy=s([B.re,null,null,B.ce],t.L)
-B.Gz=s([B.rf,null,null,B.dX],t.L)
+B.Gx=s([B.re,null,null,B.ce],t.L)
+B.Gy=s([B.rf,null,null,B.dX],t.L)
 B.FE=s([B.dS,B.dS,B.fr,null],t.L)
-B.GJ=s([B.fn,null,B.fn,null],t.L)
-B.FS=s([B.bd,null,null,B.cb],t.L)
-B.FT=s([B.b0,null,null,B.cc],t.L)
-B.FU=s([B.b1,null,null,B.cd],t.L)
+B.GI=s([B.fn,null,B.fn,null],t.L)
+B.FR=s([B.bd,null,null,B.cb],t.L)
+B.FS=s([B.b0,null,null,B.cc],t.L)
+B.FT=s([B.b1,null,null,B.cd],t.L)
 B.GK=s([B.be,null,null,B.ce],t.L)
-B.GC=s([B.iR,null,null,B.iZ],t.L)
+B.GB=s([B.iR,null,null,B.iZ],t.L)
 B.FF=s([B.dQ,B.dQ,B.fq,null],t.L)
-B.Ge=s([B.aq,null,null,B.ca],t.L)
-B.FV=s([B.c8,null,null,B.dU],t.L)
+B.Gd=s([B.aq,null,null,B.ca],t.L)
+B.FU=s([B.c8,null,null,B.dU],t.L)
 B.FA=s([B.fm,null,null,B.iX],t.L)
-B.FW=s([B.c9,null,null,B.dW],t.L)
-B.GD=s([B.iS,null,null,B.iY],t.L)
+B.FV=s([B.c9,null,null,B.dW],t.L)
+B.GC=s([B.iS,null,null,B.iY],t.L)
 B.FG=s([B.dT,B.dT,B.fs,null],t.L)
-B.FX=s([B.dO,null,null,B.dV],t.L)
-B.Gj=s([B.dP,null,null,B.dX],t.L)
+B.FW=s([B.dO,null,null,B.dV],t.L)
+B.Gi=s([B.dP,null,null,B.dX],t.L)
 B.FH=s([B.cH,B.cH,B.dR,null],t.L)
-B.IA=new A.cu(["*",B.Fx,"+",B.Gx,"-",B.FQ,".",B.G6,"/",B.EZ,"0",B.GI,"1",B.GF,"2",B.FD,"3",B.GM,"4",B.GE,"5",B.FB,"6",B.F3,"7",B.FK,"8",B.Gy,"9",B.Gz,"Alt",B.FE,"AltGraph",B.GJ,"ArrowDown",B.FS,"ArrowLeft",B.FT,"ArrowRight",B.FU,"ArrowUp",B.GK,"Clear",B.GC,"Control",B.FF,"Delete",B.Ge,"End",B.FV,"Enter",B.FA,"Home",B.FW,"Insert",B.GD,"Meta",B.FG,"PageDown",B.FX,"PageUp",B.Gj,"Shift",B.FH],A.au("cu<n,G<f?>>"))
+B.IA=new A.cu(["*",B.Fx,"+",B.Gw,"-",B.FQ,".",B.G6,"/",B.EZ,"0",B.GH,"1",B.GE,"2",B.FD,"3",B.GM,"4",B.GD,"5",B.FB,"6",B.F3,"7",B.FK,"8",B.Gx,"9",B.Gy,"Alt",B.FE,"AltGraph",B.GI,"ArrowDown",B.FR,"ArrowLeft",B.FS,"ArrowRight",B.FT,"ArrowUp",B.GK,"Clear",B.GB,"Control",B.FF,"Delete",B.Gd,"End",B.FU,"Enter",B.FA,"Home",B.FV,"Insert",B.GC,"Meta",B.FG,"PageDown",B.FW,"PageUp",B.Gi,"Shift",B.FH],A.au("cu<n,G<f?>>"))
 B.Jk={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
 B.j3=new A.b6(B.Jk,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.li)
 B.Jg={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Escape:49,Esc:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
