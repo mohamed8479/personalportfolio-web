@@ -369,7 +369,7 @@ apK(a){var s,r,q=a.graphemeLayoutBounds,p=B.b.cz(q,t.i)
 q=p.a
 s=J.aS(q)
 r=p.$ti.y[1]
-return new A.n1(new A.D(r.a(s.i(q,0)),r.a(s.i(q,1)),r.a(s.i(q,2)),r.a(s.i(q,3))),new A.cY(J.a8(a.graphemeClusterTextRange.start),J.a8(a.graphemeClusterTextRange.end)),B.iJ[J.a8(a.dir.value)])},
+return new A.n1(new A.D(r.a(s.i(q,0)),r.a(s.i(q,1)),r.a(s.i(q,2)),r.a(s.i(q,3))),new A.cY(J.a8(a.graphemeClusterTextRange.start),J.a8(a.graphemeClusterTextRange.end)),B.iK[J.a8(a.dir.value)])},
 aFM(a){var s,r="chromium/canvaskit.js"
 switch(a.a){case 0:s=A.c([],t.s)
 if(A.as9())s.push(r)
@@ -908,7 +908,7 @@ a.l()
 return l},
 jC(a){return new A.FS(a)},
 aFs(a){var s,r,q,p,o,n,m
-$label0$0:for(s=a.length,r=0;r<6;++r){q=B.Fq[r]
+$label0$0:for(s=a.length,r=0;r<6;++r){q=B.Fp[r]
 p=q.c
 o=p.length
 if(s<o)continue $label0$0
@@ -14890,7 +14890,7 @@ _.dx=$},
 B0:function B0(){},
 OO:function OO(){},
 app(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e
-if(a==null)a=B.iK
+if(a==null)a=B.iL
 s=J.aS(a)
 r=s.gt(a)-1
 q=A.br(0,null,!1,t.LQ)
@@ -15069,7 +15069,7 @@ r.gCu()
 q.sCu(r.gCu())
 r.gCm()
 q.sCm(r.gCm())
-s.ks(0,B.iK,q)
+s.ks(0,B.iL,q)
 s.saW(0,b.gaW(b))
 s.sbh(0,b.gbh(b))
 s.dy=b.gadj()
@@ -17237,7 +17237,7 @@ r.toString
 A.hp(r)
 q=a.i(0,"swipeEdge")
 q.toString
-return new A.ls(s,r,B.G_[A.fr(q)])},
+return new A.ls(s,r,B.G0[A.fr(q)])},
 yx:function yx(a,b){this.a=a
 this.b=b},
 ls:function ls(a,b,c){this.a=a
@@ -18629,7 +18629,7 @@ if(a.as!==q)return q?-1:1
 return 0},
 axA(a,b){var s=A.a1(b).h("ae<1,d3>")
 s=A.a_(new A.ae(b,new A.VM(),s),s.h("at.E"))
-return A.ax1(!0,s,a,B.Gt,!0,B.Ce,null)},
+return A.ax1(!0,s,a,B.Gu,!0,B.Ce,null)},
 ak5(a){var s
 try{a.cS()}catch(s){a.GE()}a.w=B.Te
 try{a.bB(A.aFI())}catch(s){}},
@@ -19230,7 +19230,7 @@ _.as=!0
 _.at=!1
 _.$ti=d},
 aob(a,b){var s
-if(a===b)return new A.DV(B.Gu)
+if(a===b)return new A.DV(B.Gv)
 s=A.c([],t.fJ)
 A.c8()
 a.ku(new A.Yv(b,A.aJ(t.u),s))
@@ -19630,7 +19630,7 @@ t.Dn.a(a)
 s=J.aS(a)
 r=s.i(a,0)
 r.toString
-switch(B.Fz[A.fr(r)].a){case 0:s=s.fw(a,1)
+switch(B.Fy[A.fr(r)].a){case 0:s=s.fw(a,1)
 r=s[0]
 r.toString
 A.fr(r)
@@ -23510,7 +23510,7 @@ return!1},
 k(a){return"ColorFilter.mode("+A.p(this.a)+", "+this.b.k(0)+")"}}
 A.ub.prototype={
 ga0H(){var s,r,q=new Float32Array(20)
-for(s=this.a,r=0;r<20;++r)if(B.b.v(B.Fo,r))q[r]=s[r]/255
+for(s=this.a,r=0;r<20;++r)if(B.b.v(B.Fn,r))q[r]=s[r]/255
 else q[r]=s[r]
 return q},
 t0(){return $.b1.aR().ColorFilter.MakeMatrix(this.ga0H())},
@@ -24380,7 +24380,7 @@ DB(){var s=this.Q
 s===$&&A.a()
 return s},
 qK(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.Gr
+if(a<0||b<0)return B.Gs
 s=this.a
 s===$&&A.a()
 s=s.a
@@ -24395,11 +24395,11 @@ Eg(a){var s,r,q,p,o,n,m,l=A.c([],t.Lx)
 for(s=a.a,r=J.aS(s),q=a.$ti.y[1],p=0;p<r.gt(s);++p){o=q.a(r.i(s,p))
 n=o.rect
 m=J.a8(o.dir.value)
-l.push(new A.hg(n[0],n[1],n[2],n[3],B.iJ[m]))}return l},
+l.push(new A.hg(n[0],n[1],n[2],n[3],B.iK[m]))}return l},
 dB(a){var s,r,q=this.a
 q===$&&A.a()
 s=q.a.getGlyphPositionAtCoordinate(a.a,a.b)
-r=B.G0[J.a8(s.affinity.value)]
+r=B.G1[J.a8(s.affinity.value)]
 return new A.aD(J.a8(s.pos),r)},
 DF(a){var s=this.a
 s===$&&A.a()
@@ -24715,7 +24715,7 @@ A.mw.prototype={
 G(){return"CanvasKitVariant."+this.b}}
 A.WB.prototype={
 gl2(){var s=this.b,r=s==null?null:s.canvasKitVariant
-return A.axI(B.G8,r==null?"auto":r)},
+return A.axI(B.G9,r==null?"auto":r)},
 gLF(){var s=this.b
 s=s==null?null:s.canvasKitForceCpuOnly
 return s==null?!1:s},
@@ -26475,7 +26475,7 @@ if(e.b){q=t.f
 d=q.a(J.aE(q.a(B.bq.eu(a2)),"data"))
 c=A.cJ(J.aE(d,"message"))
 if(c!=null&&c.length!==0){b=A.akv(d,"assertiveness")
-e.a.La(c,B.FL[b==null?0:b])}}a.dv(a3,B.bq.bu(!0))
+e.a.La(c,B.FK[b==null?0:b])}}a.dv(a3,B.bq.bu(!0))
 return
 case"flutter/navigation":q=a.gc7().b
 p=t.e8
@@ -29224,7 +29224,7 @@ Y7(){var s=this,r=s.r
 if(r==null){r=s.r=new A.Dm(s.c)
 r.d=new A.Wh(s)}return r},
 CX(a){var s,r,q,p,o,n,m=this
-if(B.b.v(B.GO,a.type)){s=m.Y7()
+if(B.b.v(B.GP,a.type)){s=m.Y7()
 s.toString
 r=m.c.$0()
 q=r.b
@@ -29237,7 +29237,7 @@ if(m.f!==B.lZ){m.f=B.lZ
 m.Ie()}}return m.d.a.R1(a)},
 Ie(){var s,r
 for(s=this.w,r=0;r<s.length;++r)s[r].$1(this.f)},
-QZ(a){if(B.b.v(B.Gf,a))return this.f===B.fb
+QZ(a){if(B.b.v(B.Gg,a))return this.f===B.fb
 return!1}}
 A.Wi.prototype={
 $0(){return new A.ir(Date.now(),0,!1)},
@@ -30715,7 +30715,7 @@ m=A.tb(r.i(s,"fontWeightIndex"))
 l=m!=null?A.aFG(m):"normal"
 q=A.alE(r.i(s,"fontSize"))
 if(q==null)q=null
-p=new A.a7m(new A.VI(q,l,A.cJ(r.i(s,"fontFamily")),B.FJ[o],B.iJ[n]))
+p=new A.a7m(new A.VI(q,l,A.cJ(r.i(s,"fontFamily")),B.FI[o],B.iK[n]))
 break
 case"TextInput.clearClient":p=B.zv
 break
@@ -35254,7 +35254,7 @@ if(o>0)return s
 return null}}
 A.a9m.prototype={
 F(a,b){this.Gh(0,b,0,b.length,!1)},
-b8(a){this.Gh(0,B.Gj,0,0,!0)}}
+b8(a){this.Gh(0,B.Gk,0,0,!0)}}
 A.ahn.prototype={
 Gh(a,b,c,d,e){var s=this.b.a7c(b,c,d,e)
 if(s!=null)this.a.kW(s,0,s.length,e)}}
@@ -38189,7 +38189,7 @@ h=r[4]
 g=r[5]
 f=r[6]
 e=r[7]
-for(d=l,q=0;q<64;++q,e=f,f=g,g=h,h=b,i=j,j=k,k=d,d=a){c=(e+(((h>>>6|h<<26)^(h>>>11|h<<21)^(h>>>25|h<<7))>>>0)>>>0)+(((h&g^~h&f)>>>0)+(B.FO[q]+s[q]>>>0)>>>0)>>>0
+for(d=l,q=0;q<64;++q,e=f,f=g,g=h,h=b,i=j,j=k,k=d,d=a){c=(e+(((h>>>6|h<<26)^(h>>>11|h<<21)^(h>>>25|h<<7))>>>0)>>>0)+(((h&g^~h&f)>>>0)+(B.FP[q]+s[q]>>>0)>>>0)>>>0
 b=i+c>>>0
 a=c+((((d>>>2|d<<30)^(d>>>13|d<<19)^(d>>>22|d<<10))>>>0)+((d&k^d&j^k&j)>>>0)>>>0)>>>0}r.$flags&2&&A.an(r)
 r[0]=d+l>>>0
@@ -41434,7 +41434,7 @@ n=o.e
 o=o.cx
 r=q.ga0a()
 q.a.toString
-return new A.zb(p,p,p,new A.ad2(),p,p,p,p,p,n,B.Iz,p,p,p,B.Gk,q.ga0h(),o,p,B.O9,s,p,r,p,p,B.ml,!1,!1,p,p,p,new A.n0(q,t.bT))},
+return new A.zb(p,p,p,new A.ad2(),p,p,p,p,p,n,B.Iz,p,p,p,B.Gl,q.ga0h(),o,p,B.O9,s,p,r,p,p,B.ml,!1,!1,p,p,p,new A.n0(q,t.bT))},
 J(a){var s,r=null,q=A.vj(!1,!1,this.VR(a),r,r,r,r,!0,r,r,r,new A.ad3(),r,r)
 this.a.toString
 s=this.d
@@ -41538,7 +41538,7 @@ A.rl.prototype={
 G(){return"_CornerId."+this.b}}
 A.kf.prototype={}
 A.q5.prototype={
-iP(){var s,r,q,p=this,o=A.aEk(B.Gb,new A.a0S(p,p.b.gb7().a4(0,p.a.gb7()))),n=p.a
+iP(){var s,r,q,p=this,o=A.aEk(B.Gc,new A.a0S(p,p.b.gb7().a4(0,p.a.gb7()))),n=p.a
 n.toString
 s=o.a
 r=p.mp(n,s)
@@ -44691,7 +44691,7 @@ gfP(){return A.aGr()},
 Ai(a,b,c,d,e,f){return A.awP(a,b,c,d,e,f)}}
 A.H1.prototype={
 Vk(a){var s=t.Tr
-s=A.a_(new A.ae(B.Ga,new A.a28(a),s),s.h("at.E"))
+s=A.a_(new A.ae(B.Gb,new A.a28(a),s),s.h("at.E"))
 return s},
 j(a,b){if(b==null)return!1
 if(this===b)return!0
@@ -48867,7 +48867,7 @@ Q0(a){var s=this.b,r=s.a.c.DF(a.a4(0,s.gfp()))
 if(r==null||s.gfp().j(0,B.k))return r
 return new A.n1(r.a.dC(s.gfp()),r.b,r.c)},
 u0(){var s,r,q=this.b,p=q.gfp()
-if(!isFinite(p.a)||!isFinite(p.b))return B.Gs
+if(!isFinite(p.a)||!isFinite(p.b))return B.Gt
 s=q.f
 if(s==null){s=q.a.c.u0()
 q.f=s}if(p.j(0,B.k))r=s
@@ -55039,7 +55039,7 @@ s.R=c.bW
 s.a1=c.bv
 s.A=c.bG
 s.CW=c.c
-s.a2f(b==null?B.iK:b)},
+s.a2f(b==null?B.iL:b)},
 acf(a,b){return this.ks(0,null,b)},
 Qh(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6=this,a7={}
 a7.a=a6.fr
@@ -55715,7 +55715,7 @@ break
 case 1:return A.J(q,r)}})
 return A.K($async$yu,r)},
 XW(a,b){var s,r,q,p
-if(a===b)return B.Gp
+if(a===b)return B.Gq
 s=A.c([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.lA(B.dK,a)
@@ -56951,7 +56951,7 @@ A.lt.prototype={}
 A.Ho.prototype={
 jd(a,b,c){var s,r,q,p,o,n=$.aj.ai$.d.c
 if(n==null||n.e==null)return!1
-for(s=t.v,r=0;r<2;++r){q=B.Gg[r]
+for(s=t.v,r=0;r<2;++r){q=B.Gh[r]
 p=n.e
 p.toString
 o=A.ajA(p,q,s)
@@ -57025,7 +57025,7 @@ this.e.ep(a)}}
 A.lT.prototype={
 k(a){return"Entry#"+A.bz(this)+"("+this.d.k(0)+")"}}
 A.tE.prototype={
-aa(){return new A.zh(A.aJ(t.me),B.Gv,null,null)},
+aa(){return new A.zh(A.aJ(t.me),B.Gw,null,null)},
 ac5(a,b){return this.w.$2(a,b)},
 aa_(a,b){return A.aEG().$2(a,b)}}
 A.zh.prototype={
@@ -60747,7 +60747,7 @@ j(a,b){var s=this
 if(b==null)return!1
 if(J.V(b)!==A.w(s))return!1
 return b instanceof A.c5&&b.a===s.a&&b.b==s.b&&b.d===s.d&&A.cQ(null,null)},
-gu(a){return A.S(this.a,this.b,null,this.d,A.bF(B.Gq),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.S(this.a,this.b,null,this.d,A.bF(B.Gr),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a){return"IconData(U+"+B.d.jj(B.i.kq(this.a,16).toUpperCase(),5,"0")+")"}}
 A.n7.prototype={
 bT(a){return!this.w.j(0,a.w)},
@@ -62028,7 +62028,7 @@ h=r&&e
 c=r?e:c.CW
 if(c==null)c=B.ja
 r=r&&e
-g=new A.we(b,s,q,p,m,o,n,a,h===!0,a0,a1,i,d,l,k,j,c,new A.uC(e),B.Gn,r===!0)
+g=new A.we(b,s,q,p,m,o,n,a,h===!0,a0,a1,i,d,l,k,j,c,new A.uC(e),B.Go,r===!0)
 if(!g.j(0,f.e))f.a3(new A.adk(f,g))},
 un(){if(this.d==null)this.mO()},
 Mh(){this.mO()},
@@ -62362,7 +62362,7 @@ r.N(0,s.Pi(null,l))
 l.a.toString
 q=r.a
 p=0
-for(;!1;++p){o=B.Gl[p]
+for(;!1;++p){o=B.Gm[p]
 n=l.c
 n.toString
 m=new A.fO(o.AH(n),null,!0,B.k0,B.br,new A.oO(new ($.SF())(B.br)),B.br)
@@ -62716,7 +62716,7 @@ J(a){var s,r,q=this,p=null,o=q.gZM(),n=A.pG(a),m=q.bx$,l=q.d
 l===$&&A.a()
 s=q.a.ay
 if(l.gbE()==null){r=q.gFu()
-r=J.pW(r.slice(0),A.a1(r).c)}else r=B.Gm
+r=J.pW(r.slice(0),A.a1(r).c)}else r=B.Gn
 return new A.n4(p,new A.dB(new A.a1O(q,a),A.q3(B.bx,new A.Di(!1,A.aka(A.vj(!0,p,A.a7Z(m,new A.qe(r,s,l)),p,p,p,q.y,!1,p,p,p,p,p,!0),n),p),p,o,q.ga0A(),p,p,o),p,t.w3),p)}}
 A.a1N.prototype={
 $1(a){var s=this.a.c
@@ -67479,7 +67479,7 @@ gpz(){return A.aGv()},
 a_6(){if(this.x)return
 this.tB()},
 Qg(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this,b=null,a=c.c
-if(a===-1||c.d===-1||c.b.length===0)return new A.lA(b,b,B.cY,B.iL,c.b.length!==0)
+if(a===-1||c.d===-1||c.b.length===0)return new A.lA(b,b,B.cY,B.iM,c.b.length!==0)
 if(!c.as){a=c.Fs(c.d,a)
 c.d=a
 c.c=c.Fs(c.c,a)}a=c.b[c.d]
@@ -67639,7 +67639,7 @@ r.tB()
 return s.aK()},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gyw(),p=0;p<s.length;s.length===r||(0,A.A)(s),++p)s[p].M(0,q)
-o.b=B.Go
+o.b=B.Gp
 o.y=!1
 o.dE()},
 cL(a,b){return a.jY(b)},
@@ -68281,7 +68281,7 @@ g.p2=A.v(t.D2,q)
 p=g.p1
 s=s.c
 g.p1=A.v(s,q)
-for(o=0;o<4;++o){n=B.G7[o]
+for(o=0;o<4;++o){n=B.G8[o]
 m=f.a5j(n)
 l=m==null?null:m.a
 k=p.i(0,n)
@@ -70464,11 +70464,11 @@ return A.aH(r,A.fL(B.bn,A.c([B.KN,new A.bG(new A.al(o,70,o,70),m,r)],n),B.V,B.aS
 K0(a,b){var s,r,q=null,p=A.a7(20,B.m.n()>>>16&255,B.m.n()>>>8&255,B.m.n()&255),o=A.bw(20),n=A.dq(A.a7(51,B.m.n()>>>16&255,B.m.n()>>>8&255,B.m.n()&255),1),m=A.aH(q,q,B.l,q,q,B.kl,q,7,q,q,q,q,7),l=b?"Available for freelance & CDI":"Disponible freelance & CDI",k=t.p
 o=A.aH(q,A.cm(A.c([m,B.MS,A.bf(l,q,A.bh().$3$color$fontSize$fontWeight(B.m,12,B.ae),q)],k),B.x,B.t,B.cI,0),B.l,q,q,new A.aF(p,q,n,o,q,q,B.w),q,q,q,B.lL,q,q,q)
 n=A.nf(new A.acc())
-p=b?"Flutter \xb7 Full-Stack SaaS \xb7 AI":"Flutter \xb7 SaaS Full-Stack \xb7 IA"
+p=b?"Flutter Mobile \xb7 Backend & AI \xb7 Web & DevOps":"Flutter Mobile \xb7 Backend & IA \xb7 Web & DevOps"
 p=A.a6l(A.bf(p,q,A.bh().$3$color$fontSize$fontWeight(B.h,18,B.ae),q),new A.acd())
 m=b?"Your next digital product, shipped.":"Votre prochain produit digital, livr\xe9."
 m=A.bf(m,q,A.bh().$4$color$fontSize$fontWeight$height(B.C,22,B.ao,1.3),q)
-l=b?"I build Flutter mobile apps and B2B SaaS platforms that solve real problems \u2014 fraud detection, contract management, team automation. Every product ships with AI pipelines (RAG, LLM, embeddings), production infrastructure (Docker, Kubernetes, CI/CD) and clean code you can maintain.":"Je con\xe7ois des apps mobile Flutter et des plateformes SaaS B2B qui r\xe9solvent de vrais probl\xe8mes \u2014 d\xe9tection de fraude, gestion de contrats, automatisation d'\xe9quipes. Chaque produit est livr\xe9 avec des pipelines IA (RAG, LLM, embeddings), une infrastructure production (Docker, Kubernetes, CI/CD) et un code maintenable."
+l=b?"I build Flutter mobile apps for iOS and Android \u2014 6+ shipped so far. On top of that, I design the NestJS backends and AI pipelines (RAG, LLM, embeddings) that power them, then round it out with Next.js 15 web front-ends and production-ready infrastructure (Docker, Kubernetes, CI/CD).":"Je con\xe7ois des apps mobile Flutter pour iOS et Android \u2014 6+ livr\xe9es \xe0 ce jour. En compl\xe9ment, je con\xe7ois les backends NestJS et pipelines IA (RAG, LLM, embeddings) qui les font fonctionner, puis j'ajoute les interfaces web Next.js 15 et une infrastructure pr\xeate pour la production (Docker, Kubernetes, CI/CD)."
 l=A.bf(l,q,A.bh().$3$color$fontSize$height(B.b_,15,1.7),q)
 s=b?"Download CV":"T\xe9l\xe9charger CV"
 s=A.bf(s,q,A.bh().$2$fontSize$fontWeight(14,B.ae),q)
@@ -70491,7 +70491,7 @@ $3(a,b,c){return B.E1},
 $S:465}
 A.Q2.prototype={
 J(a){var s=null,r=t.N
-return A.aH(s,A.nf(new A.agS(this,A.c([A.ah(["value","9+","labelFr","Projets livr\xe9s","labelEn","Projects shipped"],r,r),A.ah(["value","4","labelFr","SaaS B2B en prod","labelEn","SaaS B2B in prod"],r,r),A.ah(["value","4","labelFr","Exp\xe9riences pro","labelEn","Pro experiences"],r,r),A.ah(["value","15+","labelFr","Technologies","labelEn","Technologies"],r,r)],t.m0))),B.l,B.l8,s,s,s,s,s,B.D_,s,s,s)},
+return A.aH(s,A.nf(new A.agS(this,A.c([A.ah(["value","9+","labelFr","Projets livr\xe9s","labelEn","Projects shipped"],r,r),A.ah(["value","6+","labelFr","Apps mobiles livr\xe9es","labelEn","Mobile apps shipped"],r,r),A.ah(["value","4","labelFr","SaaS B2B d\xe9velopp\xe9s","labelEn","SaaS B2B built"],r,r),A.ah(["value","4","labelFr","Exp\xe9riences pro","labelEn","Pro experiences"],r,r)],t.m0))),B.l,B.l8,s,s,s,s,s,B.D_,s,s,s)},
 JQ(a,b){var s=J.aS(a),r=s.i(a,"value")
 r.toString
 r=A.a6l(A.bf(r,null,A.bh().$3$color$fontSize$fontWeight(B.h,38,B.cD),null),new A.agP())
@@ -70522,7 +70522,7 @@ J(a){var s,r,q,p=null,o="Audit & Consulting",n=A.bX(a,p,t.w).w
 a.a9(t.J).toString
 s=t.N
 r=t.K
-q=A.c([A.ah(["icon",B.DQ,"color",B.lk,"titleFr","Application Mobile Flutter","titleEn","Flutter Mobile App","descFr","Apps iOS & Android haute performance.\nUX soign\xe9e, int\xe9gration API, \xe9tat g\xe9r\xe9 proprement.","descEn","High-performance iOS & Android apps.\nPolished UX, API integration, clean state management."],s,r),A.ah(["icon",B.m0,"color",B.ld,"titleFr","Plateforme SaaS Full-Stack","titleEn","Full-Stack SaaS Platform","descFr","Backend NestJS + frontend Next.js 15.\nMulti-tenant, Stripe, CI/CD, pr\xeat pour la prod.","descEn","NestJS backend + Next.js 15 frontend.\nMulti-tenant, Stripe billing, CI/CD, production-ready."],s,r),A.ah(["icon",B.iF,"color",B.lr,"titleFr","Int\xe9gration IA & LLM","titleEn","AI & LLM Integration","descFr","Pipelines RAG, extraction LLM, embeddings,\nrecherche s\xe9mantique avec pgvector.","descEn","RAG pipelines, LLM extraction, embeddings,\nsemantic search with pgvector."],s,r),A.ah(["icon",B.DP,"color",B.lg,"titleFr",o,"titleEn",o,"descFr","Revue d'architecture, choix technologique,\noptimisation de votre stack existante.","descEn","Architecture review, tech stack decisions,\noptimisation of your existing codebase."],s,r)],t.Mq)
+q=A.c([A.ah(["icon",B.DQ,"color",B.lk,"titleFr","Application Mobile Flutter","titleEn","Flutter Mobile App","descFr","Apps iOS & Android haute performance.\nUX soign\xe9e, int\xe9gration API, \xe9tat g\xe9r\xe9 proprement.","descEn","High-performance iOS & Android apps.\nPolished UX, API integration, clean state management."],s,r),A.ah(["icon",B.iF,"color",B.lr,"titleFr","Backend & Int\xe9gration IA","titleEn","Backend & AI Integration","descFr","APIs NestJS robustes, pipelines RAG,\nextraction LLM, embeddings, recherche s\xe9mantique pgvector.","descEn","Robust NestJS APIs, RAG pipelines,\nLLM extraction, embeddings, semantic search with pgvector."],s,r),A.ah(["icon",B.m0,"color",B.ld,"titleFr","Plateforme Web & DevOps","titleEn","Web Platform & DevOps","descFr","Frontend Next.js 15, Stripe, infrastructure\nDocker/Kubernetes et CI/CD pr\xeate pour la prod.","descEn","Next.js 15 frontend, Stripe billing, Docker/\nKubernetes infrastructure and production-ready CI/CD."],s,r),A.ah(["icon",B.DP,"color",B.lg,"titleFr",o,"titleEn",o,"descFr","Revue d'architecture, choix technologique,\noptimisation de votre stack existante.","descEn","Architecture review, tech stack decisions,\noptimisation of your existing codebase."],s,r)],t.Mq)
 n=n.a.a>768?80:24
 return A.aH(p,A.bV(A.c([new A.co(A.ti("Mes services","My Services",a),B.u,B.ak,p),B.d1,A.nf(new A.agt(q))],t.p),B.x,B.t,B.r),B.l,B.h,p,p,p,p,p,new A.al(n,80,n,80),p,p,p)}}
 A.agt.prototype={
@@ -70598,10 +70598,10 @@ A.abo.prototype={
 $0(){return this.a.d=!0},
 $S:0}
 A.JZ.prototype={
-J(a){var s,r,q=null,p=A.bX(a,q,t.w).w,o=a.a9(t.J).f,n=t.s,m=A.c([A.c(["Flutter","Dart","NestJS","Next.js 15","PostgreSQL","pgvector","MongoDB","Redis"],n),A.c(["TypeScript","Docker","Kubernetes","AWS S3","Stripe","Ollama","BullMQ","Git"],n)],t.rj)
+J(a){var s,r,q=null,p=A.bX(a,q,t.w).w,o=a.a9(t.J).f,n=t.s,m=A.c([A.c(["Flutter","Dart","Ollama","RAG","NestJS","pgvector","PostgreSQL","MongoDB"],n),A.c(["Next.js 15","TypeScript","Docker","Kubernetes","AWS S3","Stripe","BullMQ","Redis"],n)],t.rj)
 p=p.a.a>768?80:24
 n=A.ti("\xc0 propos","About",a)
-s=o?"I design and deliver Flutter mobile apps and B2B SaaS platforms that solve real business problems \u2014 invoice fraud detection, contract renewal tracking, customer review analytics, team standup automation. Every product ships with a complete AI pipeline (RAG, embeddings, LLM), production-ready infrastructure (Docker, Kubernetes, CI/CD), and code your team can actually maintain. ESPRIT engineer, class of 2026 \u2014 available for freelance missions or permanent position.":"Je con\xe7ois et livre des applications mobile Flutter et des plateformes SaaS B2B qui r\xe9solvent de vrais probl\xe8mes m\xe9tier \u2014 d\xe9tection de fraude sur factures, suivi de renouvellements contractuels, analyse d'avis clients, automatisation des standups d'\xe9quipe. Chaque produit est livr\xe9 avec un pipeline IA complet (RAG, embeddings, LLM), une infrastructure production (Docker, Kubernetes, CI/CD) et un code que votre \xe9quipe peut maintenir. Ing\xe9nieur ESPRIT promo 2026, disponible pour des missions freelance ou un poste en CDI."
+s=o?"I'm a Flutter mobile developer at heart \u2014 6+ iOS & Android apps shipped \u2014 who also designs the NestJS backends and AI pipelines (RAG, embeddings, LLM) behind them, and rounds it out with Next.js 15 web front-ends and production-ready infrastructure (Docker, Kubernetes, CI/CD). I've applied this end-to-end approach to real business problems: invoice fraud detection, contract renewal tracking, customer review analytics, team standup automation. ESPRIT engineer, class of 2026 \u2014 available for freelance missions or permanent position.":"Je suis avant tout d\xe9veloppeur mobile Flutter \u2014 6+ applications iOS & Android livr\xe9es \u2014 et je con\xe7ois aussi les backends NestJS et pipelines IA (RAG, embeddings, LLM) qui les font fonctionner, avant de compl\xe9ter avec des interfaces web Next.js 15 et une infrastructure pr\xeate pour la production (Docker, Kubernetes, CI/CD). J'ai appliqu\xe9 cette approche de bout en bout \xe0 de vrais probl\xe8mes m\xe9tier : d\xe9tection de fraude sur factures, suivi de renouvellements contractuels, analyse d'avis clients, automatisation des standups d'\xe9quipe. Ing\xe9nieur ESPRIT promo 2026, disponible pour des missions freelance ou un poste en CDI."
 r=new A.dz(m,t.FE)
 return A.aH(q,A.bV(A.c([new A.co(n,B.u,B.ak,q),B.N_,new A.co(A.aH(q,A.bf(s,q,A.bh().$3$color$fontSize$height(B.b7,16,1.8),B.bl),B.l,q,B.yz,q,q,q,q,q,q,q,q),B.f5,B.ak,q),B.MZ,A.bV(r.gcM(r).cs(0,new A.a8P(),t.iF).c5(0),B.x,B.t,B.r)],t.p),B.x,B.t,B.r),B.l,B.dw,q,q,q,q,q,new A.al(p,80,p,80),q,q,q)}}
 A.a8P.prototype={
@@ -70634,7 +70634,7 @@ A.ah1.prototype={
 $0(){return this.a.d=!1},
 $S:0}
 A.PW.prototype={
-J(a){var s=null,r=A.bX(a,s,t.w).w.a.a>768,q=a.a9(t.J).f?B.GQ:B.F2,p=r?80:24
+J(a){var s=null,r=A.bX(a,s,t.w).w.a.a>768,q=a.a9(t.J).f?B.FL:B.FN,p=r?80:24
 return A.aH(s,A.bV(A.c([new A.co(A.ti("Comp\xe9tences","Skills",a),B.u,B.ak,s),B.d1,A.nf(new A.agI(r,q))],t.p),B.x,B.t,B.r),B.l,B.h,s,s,s,s,s,new A.al(p,80,p,80),s,s,s)}}
 A.agI.prototype={
 $2(a,b){var s,r,q,p,o,n,m,l=null
@@ -70653,15 +70653,15 @@ return A.bV(A.c([new A.vM(n,l),m,new A.vM(A.cm(s,B.cA,B.dY,B.r,0),l)],t.p),B.x,B
 $S:473}
 A.agF.prototype={
 $1(a){var s=a.a,r=A.bK(0,80*s)
-return new A.bG(B.CE,new A.co(new A.oL(a.b,B.iN[s],null),r,B.ak,null),null)},
+return new A.bG(B.CE,new A.co(new A.oL(a.b,B.iJ[s],null),r,B.ak,null),null)},
 $S:474}
 A.agG.prototype={
 $1(a){var s=null,r=a<2?this.a:0,q=A.bK(0,80*a)
-return new A.bG(new A.al(0,0,r,0),A.ff(new A.co(new A.oL(this.c[a],B.iN[a],s),q,B.ak,s),s,this.b),s)},
+return new A.bG(new A.al(0,0,r,0),A.ff(new A.co(new A.oL(this.c[a],B.iJ[a],s),q,B.ak,s),s,this.b),s)},
 $S:169}
 A.agH.prototype={
 $1(a){var s=null,r=a<4?this.a:0,q=A.bK(0,80*a)
-return new A.bG(new A.al(0,0,r,0),A.ff(new A.co(new A.oL(this.c[a],B.iN[a],s),q,B.ak,s),s,this.b),s)},
+return new A.bG(new A.al(0,0,r,0),A.ff(new A.co(new A.oL(this.c[a],B.iJ[a],s),q,B.ak,s),s,this.b),s)},
 $S:169}
 A.oL.prototype={
 aa(){return new A.PV()}}
@@ -70705,7 +70705,7 @@ $1(a){var s=null
 return new A.bG(B.lK,A.cm(A.c([A.aH(s,s,B.l,s,s,new A.aF(this.a.a.d,s,s,s,s,s,B.aB),s,6,s,s,s,s,6),B.d_,A.el(A.bf(a,B.cm,A.bh().$2$color$fontSize(B.b7,14),s),1)],t.p),B.x,B.t,B.r,0),s)},
 $S:92}
 A.LS.prototype={
-J(a){var s=null,r=A.bX(a,s,t.w).w.a.a>768,q=a.a9(t.J).f?B.FY:B.GJ,p=r?60:16,o=A.c([new A.co(A.ti("Exp\xe9riences","Experience",a),B.u,B.ak,s),B.N0],t.p),n=A.a1(q).h("dz<1>")
+J(a){var s=null,r=A.bX(a,s,t.w).w.a.a>768,q=a.a9(t.J).f?B.FZ:B.GK,p=r?60:16,o=A.c([new A.co(A.ti("Exp\xe9riences","Experience",a),B.u,B.ak,s),B.N0],t.p),n=A.a1(q).h("dz<1>")
 if(r){n=new A.dz(q,n)
 o.push(A.bV(n.gcM(n).cs(0,new A.ab2(q),t.xY).c5(0),B.x,B.t,B.r))}else{n=new A.dz(q,n)
 o.push(A.bV(n.gcM(n).cs(0,new A.ab3(q),t.EL).c5(0),B.x,B.t,B.r))}return A.aH(s,A.bV(o,B.x,B.t,B.r),B.l,B.dw,s,s,s,s,s,new A.al(p,80,p,80),s,s,s)}}
@@ -70894,7 +70894,7 @@ m=A.el(A.fX(A.aH(i,A.kY(j.w?B.fd:B.fe,B.h,i,32),B.l,i,i,new A.aF(m,i,l,i,i,i,B.a
 l=A.a7(64,B.h.n()>>>16&255,B.h.n()>>>8&255,B.h.n()&255)
 k=A.bw(2)
 k=A.cc(i,A.aH(i,A.nf(new A.aeg(j)),B.l,i,i,new A.aF(l,i,i,k,i,i,B.w),i,3,i,i,i,i,i),B.E,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,new A.aeh(j,a),i,i,i,i,!1,B.O)
-q.push(A.a2R(0,A.eI(A.cc(i,A.ajD(A.aH(i,A.bV(A.c([m,new A.bG(B.CO,A.bV(A.c([k,B.xm,A.cm(A.c([A.cc(i,A.kY(j.w?B.fd:B.fe,B.h,i,20),B.E,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,p,i,i,i,i,i,i,!1,B.O),B.eh,A.bf(j.oI(j.y)+" / "+j.oI(j.z),i,A.bh().$2$color$fontSize(B.K,11),i),B.xo,A.cc(i,B.Eb,B.E,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,new A.aei(j,a),i,i,i,i,i,i,!1,B.O)],r),B.x,B.t,B.r,0)],r),B.x,B.t,B.r),i)],r),B.x,B.j1,B.r),B.l,i,i,new A.aF(i,i,i,i,i,new A.hK(B.cv,B.cu,B.bE,n,B.FX,i),B.w),i,i,i,i,i,i,i),B.c6,o),B.E,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,p,i,i,i,i,i,i,!1,B.O),B.aj,i,new A.aej(j),new A.aek(j),i)))}return A.aH(i,A.Ef(s,A.fL(B.W,q,B.V,B.aS)),B.l,i,i,new A.aF(B.lq,i,i,h,i,i,B.w),i,b,i,i,i,i,1/0)},
+q.push(A.a2R(0,A.eI(A.cc(i,A.ajD(A.aH(i,A.bV(A.c([m,new A.bG(B.CO,A.bV(A.c([k,B.xm,A.cm(A.c([A.cc(i,A.kY(j.w?B.fd:B.fe,B.h,i,20),B.E,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,p,i,i,i,i,i,i,!1,B.O),B.eh,A.bf(j.oI(j.y)+" / "+j.oI(j.z),i,A.bh().$2$color$fontSize(B.K,11),i),B.xo,A.cc(i,B.Eb,B.E,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,new A.aei(j,a),i,i,i,i,i,i,!1,B.O)],r),B.x,B.t,B.r,0)],r),B.x,B.t,B.r),i)],r),B.x,B.j1,B.r),B.l,i,i,new A.aF(i,i,i,i,i,new A.hK(B.cv,B.cu,B.bE,n,B.FY,i),B.w),i,i,i,i,i,i,i),B.c6,o),B.E,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,p,i,i,i,i,i,i,!1,B.O),B.aj,i,new A.aej(j),new A.aek(j),i)))}return A.aH(i,A.Ef(s,A.fL(B.W,q,B.V,B.aS)),B.l,i,i,new A.aF(B.lq,i,i,h,i,i,B.w),i,b,i,i,i,i,1/0)},
 a1n(a){var s=this.a.c
 if(s==null||J.fR(s))return
 A.asJ(A.a7(235,B.j.n()>>>16&255,B.j.n()>>>8&255,B.j.n()&255),new A.aeq(this),a,t.z)},
@@ -71183,7 +71183,7 @@ A.abG.prototype={
 $0(){return A.e8(this.a,!1).du()},
 $S:0}
 A.Pf.prototype={
-J(a){var s=null,r=A.bX(a,s,t.w).w.a.a>768,q=a.a9(t.J).f,p=q?$.aCr:$.aCs,o=r?80:24,n=A.ti("Projets SaaS","SaaS Projects",a),m=q?"Full-stack B2B SaaS platforms \u2014 NestJS, Next.js, AI pipelines and modern infrastructure":"Plateformes SaaS B2B full-stack \u2014 NestJS, Next.js, pipelines IA et infrastructure moderne",l=new A.dz(p,A.a1(p).h("dz<1>"))
+J(a){var s=null,r=A.bX(a,s,t.w).w.a.a>768,q=a.a9(t.J).f,p=q?$.aCr:$.aCs,o=r?80:24,n=A.ti("Projets SaaS","SaaS Projects",a),m=q?"Full-stack B2B SaaS platforms built as personal projects \u2014 NestJS, Next.js, AI pipelines and modern infrastructure":"Plateformes SaaS B2B full-stack con\xe7ues en projets personnels \u2014 NestJS, Next.js, pipelines IA et infrastructure moderne",l=new A.dz(p,A.a1(p).h("dz<1>"))
 return A.aH(s,A.bV(A.c([new A.co(n,B.u,B.ak,s),B.ej,new A.co(A.bf(m,s,A.bh().$2$color$fontSize(B.bP,15),B.bl),B.aO,B.ak,s),B.d1,A.bV(l.gcM(l).cs(0,new A.ag5(r),t.Be).c5(0),B.x,B.t,B.r)],t.p),B.x,B.t,B.r),B.l,B.dw,s,s,s,s,s,new A.al(o,80,o,80),s,s,s)}}
 A.ag5.prototype={
 $1(a){var s=a.a,r=A.bK(0,120*s),q=this.a
@@ -74679,8 +74679,8 @@ B.yq=new A.cR(B.wr,B.wr,B.H,B.H)
 B.bE=new A.Jp(0,"clamp")
 B.m=new A.l(1,0.11764705882352941,0.5647058823529412,1,B.e)
 B.dv=new A.l(1,0,0.807843137254902,0.8196078431372549,B.e)
-B.Ge=s([B.m,B.dv],t.e)
-B.at=new A.hK(B.hm,B.kc,B.bE,B.Ge,null,null)
+B.Gf=s([B.m,B.dv],t.e)
+B.at=new A.hK(B.hm,B.kc,B.bE,B.Gf,null,null)
 B.w=new A.DN(0,"rectangle")
 B.yB=new A.aF(null,null,null,B.yq,null,B.at,B.w)
 B.aB=new A.DN(1,"circle")
@@ -74959,7 +74959,7 @@ B.zE=new A.a81()
 B.a3=new A.a84()
 B.c3=new A.a86()
 B.d5=new A.JN(0,0,0,0)
-B.Gn=s([],A.au("y<Vi>"))
+B.Go=s([],A.au("y<Vi>"))
 B.Ud=new A.a8s()
 B.aG={}
 B.ru=new A.b6(B.aG,[],t.li)
@@ -75487,152 +75487,30 @@ B.EX=new A.nj(2,"top")
 B.mi=new A.nj(3,"center")
 B.EY=new A.nj(4,"bottom")
 B.F_=s([0,6,12,18],t.t)
-B.cf={title:0,icon:1,items:2}
-B.DJ=new A.c5(58822,"MaterialIcons",!1)
-B.FN=s(["Flutter","Dart","Kotlin","Swift"],t.s)
-B.rp=new A.b6(B.cf,["Mobile",B.DJ,B.FN],t.Q)
-B.DL=new A.c5(61396,"MaterialIcons",!1)
-B.Gh=s(["NestJS","Next.js 15","TypeScript","REST API","Swagger"],t.s)
-B.rr=new A.b6(B.cf,["Backend & Web",B.DL,B.Gh],t.Q)
-B.m1=new A.c5(62444,"MaterialIcons",!1)
-B.mj=s(["PostgreSQL","pgvector","MongoDB","Redis","MySQL","Supabase","Firebase"],t.s)
-B.Is=new A.b6(B.cf,["Bases de donn\xe9es",B.m1,B.mj],t.Q)
-B.mn=s(["Ollama (LLaMA)","Groq","RAG / Embeddings","BullMQ","Python / scikit-learn"],t.s)
-B.Iu=new A.b6(B.cf,["IA & Pipelines",B.iF,B.mn],t.Q)
-B.G1=s(["Docker","Kubernetes","GitHub Actions","Jenkins","AWS S3","Stripe","Sentry"],t.s)
-B.rq=new A.b6(B.cf,["Infra & DevOps",B.m0,B.G1],t.Q)
-B.F2=s([B.rp,B.rr,B.Is,B.Iu,B.rq],t.Mq)
-B.Fo=s([4,9,14,19],t.t)
-B.GF=s([137,80,78,71,13,10,26,10],t.Z)
+B.Fn=s([4,9,14,19],t.t)
+B.GG=s([137,80,78,71,13,10,26,10],t.Z)
 B.Ei=new A.l0(0,"png")
 B.Eq=new A.iy(B.Ei,!1,0,"png")
-B.Eg=new A.jD(B.GF,B.Eq,0,"png")
-B.GG=s([71,73,70,56,55,97],t.Z)
-B.Ef=new A.jD(B.GG,B.ff,1,"gif87a")
-B.G9=s([71,73,70,56,57,97],t.Z)
-B.Ee=new A.jD(B.G9,B.ff,2,"gif89a")
+B.Eg=new A.jD(B.GG,B.Eq,0,"png")
+B.GH=s([71,73,70,56,55,97],t.Z)
+B.Ef=new A.jD(B.GH,B.ff,1,"gif87a")
+B.Ga=s([71,73,70,56,57,97],t.Z)
+B.Ee=new A.jD(B.Ga,B.ff,2,"gif89a")
 B.F1=s([255,216,255],t.Z)
 B.Ej=new A.l0(2,"jpeg")
 B.Eu=new A.iy(B.Ej,!1,3,"jpeg")
 B.Eh=new A.jD(B.F1,B.Eu,3,"jpeg")
-B.FI=s([82,73,70,70,null,null,null,null,87,69,66,80],t.Z)
-B.Ed=new A.jD(B.FI,B.m8,4,"webp")
-B.FC=s([66,77],t.Z)
+B.FH=s([82,73,70,70,null,null,null,null,87,69,66,80],t.Z)
+B.Ed=new A.jD(B.FH,B.m8,4,"webp")
+B.FB=s([66,77],t.Z)
 B.Ek=new A.l0(4,"bmp")
 B.Es=new A.iy(B.Ek,!1,6,"bmp")
-B.Ec=new A.jD(B.FC,B.Es,5,"bmp")
-B.Fq=s([B.Eg,B.Ef,B.Ee,B.Eh,B.Ed,B.Ec],A.au("y<jD>"))
+B.Ec=new A.jD(B.FB,B.Es,5,"bmp")
+B.Fp=s([B.Eg,B.Ef,B.Ee,B.Eh,B.Ed,B.Ec],A.au("y<jD>"))
 B.k1=new A.Bi(0,"named")
 B.y9=new A.Bi(1,"anonymous")
-B.Fz=s([B.k1,B.y9],A.au("y<Bi>"))
+B.Fy=s([B.k1,B.y9],A.au("y<Bi>"))
 B.mk=s([0,4,12,1,5,13,3,7,15],t.t)
-B.cl=new A.k5(0,"left")
-B.d2=new A.k5(1,"right")
-B.bl=new A.k5(2,"center")
-B.ek=new A.k5(3,"justify")
-B.aL=new A.k5(4,"start")
-B.h_=new A.k5(5,"end")
-B.FJ=s([B.cl,B.d2,B.bl,B.ek,B.aL,B.h_],A.au("y<k5>"))
-B.FL=s([B.hp,B.hq],A.au("y<tM>"))
-B.FO=s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298],t.t)
-B.GR=new A.jK("en",null,"US")
-B.ml=s([B.GR],t.ss)
-B.Tf=new A.kg(0,0)
-B.Tk=new A.kg(1,0.05)
-B.Ti=new A.kg(3,0.08)
-B.Tj=new A.kg(6,0.11)
-B.Th=new A.kg(8,0.12)
-B.Tg=new A.kg(12,0.14)
-B.mm=s([B.Tf,B.Tk,B.Ti,B.Tj,B.Th,B.Tg],A.au("y<kg>"))
-B.FX=s([0.5,1],t.n)
-B.bS={year:0,location:1,role:2,company:3,tasks:4}
-B.FM=s(["Development of new features and integration of AI models for an Employee Empowerment application, improving employee engagement and productivity."],t.s)
-B.IB=new A.b6(B.bS,["01-07/2026","Tunis","Flutter Developer (Internship)","Value Digital",B.FM],t.Q)
-B.GL=s(["Design and development of an educational mobile app integrating AI-powered personalized revision paths (LLaMA), with flashcards and adaptive quizzes, optimizing student learning efficiency."],t.s)
-B.IG=new A.b6(B.bS,["07-09/2025","Tunis","Mobile Developer","MK Talent",B.GL],t.Q)
-B.GP=s(["Development of a complete e-commerce application in Flutter with ExpressJS backend, integrating an AI recommendation engine and optimized interface, improving user experience and conversion rate."],t.s)
-B.IF=new A.b6(B.bS,["06-08/2025","Nabeul","Flutter Mobile Developer","Krenova Consulting",B.GP],t.Q)
-B.FP=s(["Development of an agricultural nursery management application with ReactJS and ASP.NET Web API, ensuring an intuitive interface and efficient data management."],t.s)
-B.IH=new A.b6(B.bS,["07-08/2024","Tunis","React Frontend Developer","Belive Technology",B.FP],t.Q)
-B.FY=s([B.IB,B.IG,B.IF,B.IH],t.Mq)
-B.FZ=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
-B.xp=new A.yx(0,"left")
-B.xq=new A.yx(1,"right")
-B.G_=s([B.xp,B.xq],A.au("y<yx>"))
-B.aK=new A.yD(0,"upstream")
-B.v=new A.yD(1,"downstream")
-B.G0=s([B.aK,B.v],A.au("y<yD>"))
-B.aM=new A.yH(0,"rtl")
-B.ab=new A.yH(1,"ltr")
-B.iJ=s([B.aM,B.ab],A.au("y<yH>"))
-B.bY=new A.i5(0,"leading")
-B.aU=new A.i5(1,"title")
-B.bZ=new A.i5(2,"subtitle")
-B.d9=new A.i5(3,"trailing")
-B.G7=s([B.bY,B.aU,B.bZ,B.d9],A.au("y<i5>"))
-B.zQ=new A.mw(0,"auto")
-B.zR=new A.mw(1,"full")
-B.zS=new A.mw(2,"chromium")
-B.G8=s([B.zQ,B.zR,B.zS,B.c4],A.au("y<mw>"))
-B.bD=new A.eu(1,"fuchsia")
-B.Ga=s([B.aH,B.bD,B.av,B.bi,B.bj,B.bk],A.au("y<eu>"))
-B.xQ=new A.rl(0,"topLeft")
-B.xT=new A.rl(3,"bottomRight")
-B.Ta=new A.kf(B.xQ,B.xT)
-B.Td=new A.kf(B.xT,B.xQ)
-B.xR=new A.rl(1,"topRight")
-B.xS=new A.rl(2,"bottomLeft")
-B.Tb=new A.kf(B.xR,B.xS)
-B.Tc=new A.kf(B.xS,B.xR)
-B.Gb=s([B.Ta,B.Td,B.Tb,B.Tc],A.au("y<kf>"))
-B.Gf=s(["click","scroll"],t.s)
-B.yJ=new A.p5()
-B.jm=new A.In(1,"page")
-B.jn=new A.fc(B.b6,B.jm)
-B.Gg=s([B.yJ,B.jn],A.au("y<aT>"))
-B.Gp=s([],t.QP)
-B.mq=s([],A.au("y<aHa>"))
-B.Gt=s([],t.D)
-B.mr=s([],t.SE)
-B.Gu=s([],t.fJ)
-B.Gs=s([],t.ER)
-B.Gk=s([],t.tc)
-B.fk=s([],t.jl)
-B.Gm=s([],t.wi)
-B.Gl=s([],A.au("y<ap2<@>>"))
-B.iL=s([],t.AO)
-B.Go=s([],t.D1)
-B.iK=s([],t.l)
-B.mo=s([],t.s)
-B.ap=s([],t.oU)
-B.Gr=s([],t.Lx)
-B.Gv=s([],t.p)
-B.Gj=s([],t.t)
-B.mp=s([],t.ee)
-B.Gq=s([],t.XS)
-B.dK=s([B.c_,B.bp,B.eB,B.eC,B.eD],t.QP)
-B.ms=s([B.cC,B.f8,B.f9,B.p,B.M,B.ae,B.ao,B.bv,B.cD],A.au("y<eD>"))
-B.Gz=s(["D\xe9veloppement de nouvelles fonctionnalit\xe9s et int\xe9gration de mod\xe8les d'IA pour une application d'Employee Empowerment, am\xe9liorant l'engagement et la productivit\xe9 des employ\xe9s."],t.s)
-B.ID=new A.b6(B.bS,["01-07/2026","Tunis","D\xe9veloppeur Flutter (Stage PFE)","Value Digital",B.Gz],t.Q)
-B.GN=s(["Conception et d\xe9veloppement d'une application mobile \xe9ducative int\xe9grant des parcours de r\xe9vision personnalis\xe9s par IA (LLaMA), avec fiches synth\xe9tiques et quiz adaptatifs, optimisant l'efficacit\xe9 d'apprentissage des \xe9tudiants."],t.s)
-B.II=new A.b6(B.bS,["07-09/2025","Tunis","D\xe9veloppeur Mobile","MK Talent",B.GN],t.Q)
-B.Gc=s(["D\xe9veloppement d'une application e-commerce compl\xe8te en Flutter avec backend ExpressJS, int\xe9grant un moteur de recommandation IA et une interface optimis\xe9e, ce qui a permis d'am\xe9liorer l'exp\xe9rience utilisateur et le taux de conversion."],t.s)
-B.IC=new A.b6(B.bS,["06-08/2025","Nabeul","D\xe9veloppeur Mobile Flutter","Krenova Consulting",B.Gc],t.Q)
-B.GA=s(["R\xe9alisation d'une application de gestion de p\xe9pini\xe8res agricoles avec ReactJS et ASP.NET Web API, en assurant une interface intuitive et une gestion efficace des donn\xe9es."],t.s)
-B.IE=new A.b6(B.bS,["07-08/2024","Tunis","D\xe9veloppeur Frontend React","Belive Technology",B.GA],t.Q)
-B.GJ=s([B.ID,B.II,B.IC,B.IE],t.Mq)
-B.cK=new A.fG(0,"controlModifier")
-B.cL=new A.fG(1,"shiftModifier")
-B.cM=new A.fG(2,"altModifier")
-B.cN=new A.fG(3,"metaModifier")
-B.j5=new A.fG(4,"capsLockModifier")
-B.j6=new A.fG(5,"numLockModifier")
-B.j7=new A.fG(6,"scrollLockModifier")
-B.j8=new A.fG(7,"functionModifier")
-B.rD=new A.fG(8,"symbolModifier")
-B.mt=s([B.cK,B.cL,B.cM,B.cN,B.j5,B.j6,B.j7,B.j8,B.rD],A.au("y<fG>"))
-B.iM=s([!0,!1],t.HZ)
-B.GO=s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","wheel"],t.s)
 B.Ad=new A.l(1,1,0.9725490196078431,0.8823529411764706,B.e)
 B.Bb=new A.l(1,1,0.9254901960784314,0.7019607843137254,B.e)
 B.B2=new A.l(1,1,0.8784313725490196,0.5098039215686274,B.e)
@@ -75645,6 +75523,18 @@ B.B6=new A.l(1,1,0.5607843137254902,0,B.e)
 B.Ay=new A.l(1,1,0.43529411764705883,0,B.e)
 B.IM=new A.cu([50,B.Ad,100,B.Bb,200,B.B2,300,B.B1,400,B.ln,500,B.Aj,600,B.Br,700,B.Av,800,B.B6,900,B.Ay],t.pl)
 B.IU=new A.iE(B.IM,1,1,0.7568627450980392,0.027450980392156862,B.e)
+B.BI=new A.l(1,0.9098039215686274,0.9607843137254902,0.9137254901960784,B.e)
+B.Aw=new A.l(1,0.7843137254901961,0.9019607843137255,0.788235294117647,B.e)
+B.Bw=new A.l(1,0.6470588235294118,0.8392156862745098,0.6549019607843137,B.e)
+B.BP=new A.l(1,0.5058823529411764,0.7803921568627451,0.5176470588235295,B.e)
+B.Bc=new A.l(1,0.4,0.7333333333333333,0.41568627450980394,B.e)
+B.BK=new A.l(1,0.2980392156862745,0.6862745098039216,0.3137254901960784,B.e)
+B.BO=new A.l(1,0.2627450980392157,0.6274509803921569,0.2784313725490196,B.e)
+B.Ab=new A.l(1,0.2196078431372549,0.5568627450980392,0.23529411764705882,B.e)
+B.AY=new A.l(1,0.1803921568627451,0.49019607843137253,0.19607843137254902,B.e)
+B.Ar=new A.l(1,0.10588235294117647,0.3686274509803922,0.12549019607843137,B.e)
+B.IO=new A.cu([50,B.BI,100,B.Aw,200,B.Bw,300,B.BP,400,B.Bc,500,B.BK,600,B.BO,700,B.Ab,800,B.AY,900,B.Ar],t.pl)
+B.IV=new A.iE(B.IO,1,0.2980392156862745,0.6862745098039216,0.3137254901960784,B.e)
 B.Au=new A.l(1,0.39215686274509803,0.7098039215686275,0.9647058823529412,B.e)
 B.AL=new A.l(1,0.25882352941176473,0.6470588235294118,0.9607843137254902,B.e)
 B.BH=new A.l(1,0.08235294117647059,0.396078431372549,0.7529411764705882,B.e)
@@ -75662,18 +75552,6 @@ B.Bg=new A.l(1,0.7764705882352941,0.1568627450980392,0.1568627450980392,B.e)
 B.Bq=new A.l(1,0.7176470588235294,0.10980392156862745,0.10980392156862745,B.e)
 B.IK=new A.cu([50,B.Bh,100,B.Az,200,B.Am,300,B.BF,400,B.BN,500,B.BA,600,B.B7,700,B.kZ,800,B.Bg,900,B.Bq],t.pl)
 B.IT=new A.iE(B.IK,1,0.9568627450980393,0.2627450980392157,0.21176470588235294,B.e)
-B.BI=new A.l(1,0.9098039215686274,0.9607843137254902,0.9137254901960784,B.e)
-B.Aw=new A.l(1,0.7843137254901961,0.9019607843137255,0.788235294117647,B.e)
-B.Bw=new A.l(1,0.6470588235294118,0.8392156862745098,0.6549019607843137,B.e)
-B.BP=new A.l(1,0.5058823529411764,0.7803921568627451,0.5176470588235295,B.e)
-B.Bc=new A.l(1,0.4,0.7333333333333333,0.41568627450980394,B.e)
-B.BK=new A.l(1,0.2980392156862745,0.6862745098039216,0.3137254901960784,B.e)
-B.BO=new A.l(1,0.2627450980392157,0.6274509803921569,0.2784313725490196,B.e)
-B.Ab=new A.l(1,0.2196078431372549,0.5568627450980392,0.23529411764705882,B.e)
-B.AY=new A.l(1,0.1803921568627451,0.49019607843137253,0.19607843137254902,B.e)
-B.Ar=new A.l(1,0.10588235294117647,0.3686274509803922,0.12549019607843137,B.e)
-B.IO=new A.cu([50,B.BI,100,B.Aw,200,B.Bw,300,B.BP,400,B.Bc,500,B.BK,600,B.BO,700,B.Ab,800,B.AY,900,B.Ar],t.pl)
-B.IV=new A.iE(B.IO,1,0.2980392156862745,0.6862745098039216,0.3137254901960784,B.e)
 B.Be=new A.l(1,0.9098039215686274,0.9176470588235294,0.9647058823529412,B.e)
 B.Bf=new A.l(1,0.7725490196078432,0.792156862745098,0.9137254901960784,B.e)
 B.BE=new A.l(1,0.6235294117647059,0.6588235294117647,0.8549019607843137,B.e)
@@ -75686,10 +75564,132 @@ B.B3=new A.l(1,0.1568627450980392,0.20784313725490197,0.5764705882352941,B.e)
 B.AN=new A.l(1,0.10196078431372549,0.13725490196078433,0.49411764705882355,B.e)
 B.IN=new A.cu([50,B.Be,100,B.Bf,200,B.BE,300,B.BB,400,B.Bn,500,B.Bv,600,B.A8,700,B.BM,800,B.B3,900,B.AN],t.pl)
 B.IR=new A.iE(B.IN,1,0.24705882352941178,0.3176470588235294,0.7098039215686275,B.e)
-B.iN=s([B.IU,B.dZ,B.IT,B.IV,B.IR],A.au("y<iE>"))
-B.Iv=new A.b6(B.cf,["Databases",B.m1,B.mj],t.Q)
+B.iJ=s([B.IU,B.IV,B.dZ,B.IT,B.IR],A.au("y<iE>"))
+B.cl=new A.k5(0,"left")
+B.d2=new A.k5(1,"right")
+B.bl=new A.k5(2,"center")
+B.ek=new A.k5(3,"justify")
+B.aL=new A.k5(4,"start")
+B.h_=new A.k5(5,"end")
+B.FI=s([B.cl,B.d2,B.bl,B.ek,B.aL,B.h_],A.au("y<k5>"))
+B.FK=s([B.hp,B.hq],A.au("y<tM>"))
+B.cf={title:0,icon:1,items:2}
+B.DJ=new A.c5(58822,"MaterialIcons",!1)
+B.FO=s(["Flutter","Dart","Kotlin","Swift"],t.s)
+B.rp=new A.b6(B.cf,["Mobile",B.DJ,B.FO],t.Q)
+B.mn=s(["Ollama (LLaMA)","Groq","RAG / Embeddings","BullMQ","Python / scikit-learn"],t.s)
 B.It=new A.b6(B.cf,["AI & Pipelines",B.iF,B.mn],t.Q)
-B.GQ=s([B.rp,B.rr,B.Iv,B.It,B.rq],t.Mq)
+B.DL=new A.c5(61396,"MaterialIcons",!1)
+B.Gi=s(["NestJS","Next.js 15","TypeScript","REST API","Swagger"],t.s)
+B.rr=new A.b6(B.cf,["Backend & Web",B.DL,B.Gi],t.Q)
+B.m1=new A.c5(62444,"MaterialIcons",!1)
+B.mj=s(["PostgreSQL","pgvector","MongoDB","Redis","MySQL","Supabase","Firebase"],t.s)
+B.Iv=new A.b6(B.cf,["Databases",B.m1,B.mj],t.Q)
+B.G2=s(["Docker","Kubernetes","GitHub Actions","Jenkins","AWS S3","Stripe","Sentry"],t.s)
+B.rq=new A.b6(B.cf,["Infra & DevOps",B.m0,B.G2],t.Q)
+B.FL=s([B.rp,B.It,B.rr,B.Iv,B.rq],t.Mq)
+B.Iu=new A.b6(B.cf,["IA & Pipelines",B.iF,B.mn],t.Q)
+B.Is=new A.b6(B.cf,["Bases de donn\xe9es",B.m1,B.mj],t.Q)
+B.FN=s([B.rp,B.Iu,B.rr,B.Is,B.rq],t.Mq)
+B.FP=s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298],t.t)
+B.GR=new A.jK("en",null,"US")
+B.ml=s([B.GR],t.ss)
+B.Tf=new A.kg(0,0)
+B.Tk=new A.kg(1,0.05)
+B.Ti=new A.kg(3,0.08)
+B.Tj=new A.kg(6,0.11)
+B.Th=new A.kg(8,0.12)
+B.Tg=new A.kg(12,0.14)
+B.mm=s([B.Tf,B.Tk,B.Ti,B.Tj,B.Th,B.Tg],A.au("y<kg>"))
+B.FY=s([0.5,1],t.n)
+B.bS={year:0,location:1,role:2,company:3,tasks:4}
+B.FM=s(["Development of new features and integration of AI models for an Employee Empowerment application, improving employee engagement and productivity."],t.s)
+B.IB=new A.b6(B.bS,["01-07/2026","Tunis","Flutter Developer (Internship)","Value Digital",B.FM],t.Q)
+B.GM=s(["Design and development of an educational mobile app integrating AI-powered personalized revision paths (LLaMA), with flashcards and adaptive quizzes, optimizing student learning efficiency."],t.s)
+B.IG=new A.b6(B.bS,["07-09/2025","Tunis","Mobile Developer","MK Talent",B.GM],t.Q)
+B.GQ=s(["Development of a complete e-commerce application in Flutter with ExpressJS backend, integrating an AI recommendation engine and optimized interface, improving user experience and conversion rate."],t.s)
+B.IF=new A.b6(B.bS,["06-08/2025","Nabeul","Flutter Mobile Developer","Krenova Consulting",B.GQ],t.Q)
+B.FQ=s(["Development of an agricultural nursery management application with ReactJS and ASP.NET Web API, ensuring an intuitive interface and efficient data management."],t.s)
+B.IH=new A.b6(B.bS,["07-08/2024","Tunis","React Frontend Developer","Belive Technology",B.FQ],t.Q)
+B.FZ=s([B.IB,B.IG,B.IF,B.IH],t.Mq)
+B.G_=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
+B.xp=new A.yx(0,"left")
+B.xq=new A.yx(1,"right")
+B.G0=s([B.xp,B.xq],A.au("y<yx>"))
+B.aK=new A.yD(0,"upstream")
+B.v=new A.yD(1,"downstream")
+B.G1=s([B.aK,B.v],A.au("y<yD>"))
+B.aM=new A.yH(0,"rtl")
+B.ab=new A.yH(1,"ltr")
+B.iK=s([B.aM,B.ab],A.au("y<yH>"))
+B.bY=new A.i5(0,"leading")
+B.aU=new A.i5(1,"title")
+B.bZ=new A.i5(2,"subtitle")
+B.d9=new A.i5(3,"trailing")
+B.G8=s([B.bY,B.aU,B.bZ,B.d9],A.au("y<i5>"))
+B.zQ=new A.mw(0,"auto")
+B.zR=new A.mw(1,"full")
+B.zS=new A.mw(2,"chromium")
+B.G9=s([B.zQ,B.zR,B.zS,B.c4],A.au("y<mw>"))
+B.bD=new A.eu(1,"fuchsia")
+B.Gb=s([B.aH,B.bD,B.av,B.bi,B.bj,B.bk],A.au("y<eu>"))
+B.xQ=new A.rl(0,"topLeft")
+B.xT=new A.rl(3,"bottomRight")
+B.Ta=new A.kf(B.xQ,B.xT)
+B.Td=new A.kf(B.xT,B.xQ)
+B.xR=new A.rl(1,"topRight")
+B.xS=new A.rl(2,"bottomLeft")
+B.Tb=new A.kf(B.xR,B.xS)
+B.Tc=new A.kf(B.xS,B.xR)
+B.Gc=s([B.Ta,B.Td,B.Tb,B.Tc],A.au("y<kf>"))
+B.Gg=s(["click","scroll"],t.s)
+B.yJ=new A.p5()
+B.jm=new A.In(1,"page")
+B.jn=new A.fc(B.b6,B.jm)
+B.Gh=s([B.yJ,B.jn],A.au("y<aT>"))
+B.Gq=s([],t.QP)
+B.mq=s([],A.au("y<aHa>"))
+B.Gu=s([],t.D)
+B.mr=s([],t.SE)
+B.Gv=s([],t.fJ)
+B.Gt=s([],t.ER)
+B.Gl=s([],t.tc)
+B.fk=s([],t.jl)
+B.Gn=s([],t.wi)
+B.Gm=s([],A.au("y<ap2<@>>"))
+B.iM=s([],t.AO)
+B.Gp=s([],t.D1)
+B.iL=s([],t.l)
+B.mo=s([],t.s)
+B.ap=s([],t.oU)
+B.Gs=s([],t.Lx)
+B.Gw=s([],t.p)
+B.Gk=s([],t.t)
+B.mp=s([],t.ee)
+B.Gr=s([],t.XS)
+B.dK=s([B.c_,B.bp,B.eB,B.eC,B.eD],t.QP)
+B.ms=s([B.cC,B.f8,B.f9,B.p,B.M,B.ae,B.ao,B.bv,B.cD],A.au("y<eD>"))
+B.GA=s(["D\xe9veloppement de nouvelles fonctionnalit\xe9s et int\xe9gration de mod\xe8les d'IA pour une application d'Employee Empowerment, am\xe9liorant l'engagement et la productivit\xe9 des employ\xe9s."],t.s)
+B.ID=new A.b6(B.bS,["01-07/2026","Tunis","D\xe9veloppeur Flutter (Stage PFE)","Value Digital",B.GA],t.Q)
+B.GO=s(["Conception et d\xe9veloppement d'une application mobile \xe9ducative int\xe9grant des parcours de r\xe9vision personnalis\xe9s par IA (LLaMA), avec fiches synth\xe9tiques et quiz adaptatifs, optimisant l'efficacit\xe9 d'apprentissage des \xe9tudiants."],t.s)
+B.II=new A.b6(B.bS,["07-09/2025","Tunis","D\xe9veloppeur Mobile","MK Talent",B.GO],t.Q)
+B.Gd=s(["D\xe9veloppement d'une application e-commerce compl\xe8te en Flutter avec backend ExpressJS, int\xe9grant un moteur de recommandation IA et une interface optimis\xe9e, ce qui a permis d'am\xe9liorer l'exp\xe9rience utilisateur et le taux de conversion."],t.s)
+B.IC=new A.b6(B.bS,["06-08/2025","Nabeul","D\xe9veloppeur Mobile Flutter","Krenova Consulting",B.Gd],t.Q)
+B.GB=s(["R\xe9alisation d'une application de gestion de p\xe9pini\xe8res agricoles avec ReactJS et ASP.NET Web API, en assurant une interface intuitive et une gestion efficace des donn\xe9es."],t.s)
+B.IE=new A.b6(B.bS,["07-08/2024","Tunis","D\xe9veloppeur Frontend React","Belive Technology",B.GB],t.Q)
+B.GK=s([B.ID,B.II,B.IC,B.IE],t.Mq)
+B.cK=new A.fG(0,"controlModifier")
+B.cL=new A.fG(1,"shiftModifier")
+B.cM=new A.fG(2,"altModifier")
+B.cN=new A.fG(3,"metaModifier")
+B.j5=new A.fG(4,"capsLockModifier")
+B.j6=new A.fG(5,"numLockModifier")
+B.j7=new A.fG(6,"scrollLockModifier")
+B.j8=new A.fG(7,"functionModifier")
+B.rD=new A.fG(8,"symbolModifier")
+B.mt=s([B.cK,B.cL,B.cM,B.cN,B.j5,B.j6,B.j7,B.j8,B.rD],A.au("y<fG>"))
+B.iN=s([!0,!1],t.HZ)
+B.GP=s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","wheel"],t.s)
 B.n=new A.w3(0,"ignored")
 B.au=new A.f(4294967304)
 B.dM=new A.f(4294967323)
@@ -76238,72 +76238,72 @@ B.j2=new A.b6(B.aG,[],A.au("b6<n,@>"))
 B.rw=new A.b6(B.aG,[],A.au("b6<yz,@>"))
 B.Ix=new A.b6(B.aG,[],A.au("b6<eP,cG>"))
 B.rt=new A.b6(B.aG,[],A.au("b6<eP,n_<cG>>"))
-B.Fh=s([42,null,null,8589935146],t.Z)
-B.Fi=s([43,null,null,8589935147],t.Z)
-B.Fj=s([45,null,null,8589935149],t.Z)
-B.Fk=s([46,null,null,8589935150],t.Z)
-B.Fl=s([47,null,null,8589935151],t.Z)
-B.Fm=s([48,null,null,8589935152],t.Z)
-B.Fn=s([49,null,null,8589935153],t.Z)
-B.Fp=s([50,null,null,8589935154],t.Z)
-B.Fr=s([51,null,null,8589935155],t.Z)
-B.Fs=s([52,null,null,8589935156],t.Z)
-B.Ft=s([53,null,null,8589935157],t.Z)
-B.Fu=s([54,null,null,8589935158],t.Z)
-B.Fv=s([55,null,null,8589935159],t.Z)
-B.Fw=s([56,null,null,8589935160],t.Z)
-B.Fy=s([57,null,null,8589935161],t.Z)
-B.G2=s([8589934852,8589934852,8589934853,null],t.Z)
-B.F6=s([4294967555,null,4294967555,null],t.Z)
-B.F7=s([4294968065,null,null,8589935154],t.Z)
-B.F8=s([4294968066,null,null,8589935156],t.Z)
-B.F9=s([4294968067,null,null,8589935158],t.Z)
-B.Fa=s([4294968068,null,null,8589935160],t.Z)
-B.Ff=s([4294968321,null,null,8589935157],t.Z)
-B.G3=s([8589934848,8589934848,8589934849,null],t.Z)
-B.F5=s([4294967423,null,null,8589935150],t.Z)
-B.Fb=s([4294968069,null,null,8589935153],t.Z)
-B.F4=s([4294967309,null,null,8589935117],t.Z)
-B.Fc=s([4294968070,null,null,8589935159],t.Z)
-B.Fg=s([4294968327,null,null,8589935152],t.Z)
-B.G4=s([8589934854,8589934854,8589934855,null],t.Z)
-B.Fd=s([4294968071,null,null,8589935155],t.Z)
-B.Fe=s([4294968072,null,null,8589935161],t.Z)
-B.G5=s([8589934850,8589934850,8589934851,null],t.Z)
-B.rx=new A.cu(["*",B.Fh,"+",B.Fi,"-",B.Fj,".",B.Fk,"/",B.Fl,"0",B.Fm,"1",B.Fn,"2",B.Fp,"3",B.Fr,"4",B.Fs,"5",B.Ft,"6",B.Fu,"7",B.Fv,"8",B.Fw,"9",B.Fy,"Alt",B.G2,"AltGraph",B.F6,"ArrowDown",B.F7,"ArrowLeft",B.F8,"ArrowRight",B.F9,"ArrowUp",B.Fa,"Clear",B.Ff,"Control",B.G3,"Delete",B.F5,"End",B.Fb,"Enter",B.F4,"Home",B.Fc,"Insert",B.Fg,"Meta",B.G4,"PageDown",B.Fd,"PageUp",B.Fe,"Shift",B.G5],A.au("cu<n,G<o?>>"))
-B.Fx=s([B.mA,null,null,B.rg],t.L)
-B.Gw=s([B.r2,null,null,B.rh],t.L)
-B.FQ=s([B.r3,null,null,B.ri],t.L)
-B.G6=s([B.r4,null,null,B.ca],t.L)
+B.Fg=s([42,null,null,8589935146],t.Z)
+B.Fh=s([43,null,null,8589935147],t.Z)
+B.Fi=s([45,null,null,8589935149],t.Z)
+B.Fj=s([46,null,null,8589935150],t.Z)
+B.Fk=s([47,null,null,8589935151],t.Z)
+B.Fl=s([48,null,null,8589935152],t.Z)
+B.Fm=s([49,null,null,8589935153],t.Z)
+B.Fo=s([50,null,null,8589935154],t.Z)
+B.Fq=s([51,null,null,8589935155],t.Z)
+B.Fr=s([52,null,null,8589935156],t.Z)
+B.Fs=s([53,null,null,8589935157],t.Z)
+B.Ft=s([54,null,null,8589935158],t.Z)
+B.Fu=s([55,null,null,8589935159],t.Z)
+B.Fv=s([56,null,null,8589935160],t.Z)
+B.Fx=s([57,null,null,8589935161],t.Z)
+B.G3=s([8589934852,8589934852,8589934853,null],t.Z)
+B.F5=s([4294967555,null,4294967555,null],t.Z)
+B.F6=s([4294968065,null,null,8589935154],t.Z)
+B.F7=s([4294968066,null,null,8589935156],t.Z)
+B.F8=s([4294968067,null,null,8589935158],t.Z)
+B.F9=s([4294968068,null,null,8589935160],t.Z)
+B.Fe=s([4294968321,null,null,8589935157],t.Z)
+B.G4=s([8589934848,8589934848,8589934849,null],t.Z)
+B.F4=s([4294967423,null,null,8589935150],t.Z)
+B.Fa=s([4294968069,null,null,8589935153],t.Z)
+B.F3=s([4294967309,null,null,8589935117],t.Z)
+B.Fb=s([4294968070,null,null,8589935159],t.Z)
+B.Ff=s([4294968327,null,null,8589935152],t.Z)
+B.G5=s([8589934854,8589934854,8589934855,null],t.Z)
+B.Fc=s([4294968071,null,null,8589935155],t.Z)
+B.Fd=s([4294968072,null,null,8589935161],t.Z)
+B.G6=s([8589934850,8589934850,8589934851,null],t.Z)
+B.rx=new A.cu(["*",B.Fg,"+",B.Fh,"-",B.Fi,".",B.Fj,"/",B.Fk,"0",B.Fl,"1",B.Fm,"2",B.Fo,"3",B.Fq,"4",B.Fr,"5",B.Fs,"6",B.Ft,"7",B.Fu,"8",B.Fv,"9",B.Fx,"Alt",B.G3,"AltGraph",B.F5,"ArrowDown",B.F6,"ArrowLeft",B.F7,"ArrowRight",B.F8,"ArrowUp",B.F9,"Clear",B.Fe,"Control",B.G4,"Delete",B.F4,"End",B.Fa,"Enter",B.F3,"Home",B.Fb,"Insert",B.Ff,"Meta",B.G5,"PageDown",B.Fc,"PageUp",B.Fd,"Shift",B.G6],A.au("cu<n,G<o?>>"))
+B.Fw=s([B.mA,null,null,B.rg],t.L)
+B.Gx=s([B.r2,null,null,B.rh],t.L)
+B.FR=s([B.r3,null,null,B.ri],t.L)
+B.G7=s([B.r4,null,null,B.ca],t.L)
 B.EZ=s([B.r5,null,null,B.rj],t.L)
-B.GH=s([B.r6,null,null,B.iY],t.L)
-B.GE=s([B.r7,null,null,B.dU],t.L)
-B.FD=s([B.r8,null,null,B.cb],t.L)
-B.GM=s([B.r9,null,null,B.dV],t.L)
-B.GD=s([B.ra,null,null,B.cc],t.L)
-B.FB=s([B.rb,null,null,B.iZ],t.L)
-B.F3=s([B.rc,null,null,B.cd],t.L)
-B.FK=s([B.rd,null,null,B.dW],t.L)
-B.Gx=s([B.re,null,null,B.ce],t.L)
-B.Gy=s([B.rf,null,null,B.dX],t.L)
-B.FE=s([B.dS,B.dS,B.fr,null],t.L)
-B.GI=s([B.fn,null,B.fn,null],t.L)
-B.FR=s([B.bd,null,null,B.cb],t.L)
-B.FS=s([B.b0,null,null,B.cc],t.L)
-B.FT=s([B.b1,null,null,B.cd],t.L)
-B.GK=s([B.be,null,null,B.ce],t.L)
-B.GB=s([B.iR,null,null,B.iZ],t.L)
-B.FF=s([B.dQ,B.dQ,B.fq,null],t.L)
-B.Gd=s([B.aq,null,null,B.ca],t.L)
-B.FU=s([B.c8,null,null,B.dU],t.L)
-B.FA=s([B.fm,null,null,B.iX],t.L)
-B.FV=s([B.c9,null,null,B.dW],t.L)
-B.GC=s([B.iS,null,null,B.iY],t.L)
-B.FG=s([B.dT,B.dT,B.fs,null],t.L)
-B.FW=s([B.dO,null,null,B.dV],t.L)
-B.Gi=s([B.dP,null,null,B.dX],t.L)
-B.FH=s([B.cH,B.cH,B.dR,null],t.L)
-B.IA=new A.cu(["*",B.Fx,"+",B.Gw,"-",B.FQ,".",B.G6,"/",B.EZ,"0",B.GH,"1",B.GE,"2",B.FD,"3",B.GM,"4",B.GD,"5",B.FB,"6",B.F3,"7",B.FK,"8",B.Gx,"9",B.Gy,"Alt",B.FE,"AltGraph",B.GI,"ArrowDown",B.FR,"ArrowLeft",B.FS,"ArrowRight",B.FT,"ArrowUp",B.GK,"Clear",B.GB,"Control",B.FF,"Delete",B.Gd,"End",B.FU,"Enter",B.FA,"Home",B.FV,"Insert",B.GC,"Meta",B.FG,"PageDown",B.FW,"PageUp",B.Gi,"Shift",B.FH],A.au("cu<n,G<f?>>"))
+B.GI=s([B.r6,null,null,B.iY],t.L)
+B.GF=s([B.r7,null,null,B.dU],t.L)
+B.FC=s([B.r8,null,null,B.cb],t.L)
+B.GN=s([B.r9,null,null,B.dV],t.L)
+B.GE=s([B.ra,null,null,B.cc],t.L)
+B.FA=s([B.rb,null,null,B.iZ],t.L)
+B.F2=s([B.rc,null,null,B.cd],t.L)
+B.FJ=s([B.rd,null,null,B.dW],t.L)
+B.Gy=s([B.re,null,null,B.ce],t.L)
+B.Gz=s([B.rf,null,null,B.dX],t.L)
+B.FD=s([B.dS,B.dS,B.fr,null],t.L)
+B.GJ=s([B.fn,null,B.fn,null],t.L)
+B.FS=s([B.bd,null,null,B.cb],t.L)
+B.FT=s([B.b0,null,null,B.cc],t.L)
+B.FU=s([B.b1,null,null,B.cd],t.L)
+B.GL=s([B.be,null,null,B.ce],t.L)
+B.GC=s([B.iR,null,null,B.iZ],t.L)
+B.FE=s([B.dQ,B.dQ,B.fq,null],t.L)
+B.Ge=s([B.aq,null,null,B.ca],t.L)
+B.FV=s([B.c8,null,null,B.dU],t.L)
+B.Fz=s([B.fm,null,null,B.iX],t.L)
+B.FW=s([B.c9,null,null,B.dW],t.L)
+B.GD=s([B.iS,null,null,B.iY],t.L)
+B.FF=s([B.dT,B.dT,B.fs,null],t.L)
+B.FX=s([B.dO,null,null,B.dV],t.L)
+B.Gj=s([B.dP,null,null,B.dX],t.L)
+B.FG=s([B.cH,B.cH,B.dR,null],t.L)
+B.IA=new A.cu(["*",B.Fw,"+",B.Gx,"-",B.FR,".",B.G7,"/",B.EZ,"0",B.GI,"1",B.GF,"2",B.FC,"3",B.GN,"4",B.GE,"5",B.FA,"6",B.F2,"7",B.FJ,"8",B.Gy,"9",B.Gz,"Alt",B.FD,"AltGraph",B.GJ,"ArrowDown",B.FS,"ArrowLeft",B.FT,"ArrowRight",B.FU,"ArrowUp",B.GL,"Clear",B.GC,"Control",B.FE,"Delete",B.Ge,"End",B.FV,"Enter",B.Fz,"Home",B.FW,"Insert",B.GD,"Meta",B.FF,"PageDown",B.FX,"PageUp",B.Gj,"Shift",B.FG],A.au("cu<n,G<f?>>"))
 B.Jk={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
 B.j3=new A.b6(B.Jk,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.li)
 B.Jg={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Escape:49,Esc:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
@@ -76779,8 +76779,8 @@ B.jp=new A.qD(1,"nextLine")
 B.fG=new A.qD(2,"forward")
 B.fH=new A.qD(3,"backward")
 B.cY=new A.y1(2,"none")
-B.wJ=new A.lA(null,null,B.cY,B.iL,!0)
-B.wK=new A.lA(null,null,B.cY,B.iL,!1)
+B.wJ=new A.lA(null,null,B.cY,B.iM,!0)
+B.wK=new A.lA(null,null,B.cY,B.iM,!1)
 B.A=new A.lB(0,"next")
 B.D=new A.lB(1,"previous")
 B.G=new A.lB(2,"end")
@@ -77640,9 +77640,9 @@ return A.c([A.ah(["title","PrimeProf","year","2025","description","Contribution 
 $.aCe=function(){var s=t.s,r=t.N,q=t.K
 return A.c([A.ah(["title","PrimeProf","year","2025","description","Contribution to the development of PrimeProof, an educational mobile app built with Flutter, NestJS and PostgreSQL. It integrates advanced AI features to connect students and teachers, improving communication and educational tracking through intelligent matching.","tags",A.c(["Flutter","NestJS","PostgreSQL","OpenAI"],s),"result","AI matching with educational tracking","isVideo",!0,"mediaUrl","assets/demo1.mp4"],r,q),A.ah(["title","Sports & Nutrition Coaching","year","2024","description","Creation of a mobile app in Kotlin with NestJS backend, MongoDB and Gemini API. The app generates personalized sports and nutrition programs using AI, offering a tailored user experience and detailed progress tracking.","tags",A.c(["Kotlin","NestJS","MongoDB","Gemini"],s),"result","100% personalized programs","isVideo",!1,"imageAssets",A.c(["assets/projet2.jpeg"],s)],r,q),A.ah(["title","E-commerce Dashboard","year","2025","description","Development of a complete e-commerce app with admin dashboard, built with Flutter, Firebase and Supabase. It offers a smooth shopping experience with secure authentication and real-time data management.","tags",A.c(["Flutter","Firebase","Supabase"],s),"result","Product and order management","isVideo",!1,"imageAssets",A.c(["assets/projet3.jpg"],s)],r,q),A.ah(["title","Cement Plant Platform (hackathon)","year","2024","description","Development of a mobile sales management app using Flutter, NestJS, Google Maps API and MongoDB. It allows mapping of sales points for real\u2011time visit tracking and price updates in the field.","tags",A.c(["Flutter","NestJS","Google Maps","MongoDB"],s),"result","Field visit optimization","isVideo",!1,"imageAssets",A.c(["assets/projet4.jpg"],s)],r,q),A.ah(["title","ESPRIT Community (hackathon)","year","2025","description","Development of a Reddit\u2011like social platform with Flutter and NestJS, integrating live podcast and personalized recommendations via OpenAI. The goal is to foster interaction among students and knowledge sharing.","tags",A.c(["Flutter","NestJS","OpenAI"],s),"result","Live podcast and interactions","isVideo",!0,"mediaUrl","assets/demo5.mp4"],r,q)],t.Mq)}()
 $.aCs=function(){var s=t.s,r=t.N,q=t.K
-return A.c([A.ah(["title","InvoiceGuard","subtitle","B2B SaaS \u2014 D\xe9tection de doublons de factures et fraude au paiement","year","2026","description","Stoppe la fraude fournisseur avant qu'elle ne co\xfbte. Les \xe9quipes comptables uploadent leurs factures PDF, la plateforme les analyse en 4 niveaux \u2014 hash SHA-256 (100%), correspondance exacte (95%), m\xeame p\xe9riode \xb15% (70%), similarit\xe9 s\xe9mantique HNSW (99%) \u2014 et g\xe9n\xe8re des alertes temps r\xe9el class\xe9es par confiance. Z\xe9ro double paiement, z\xe9ro fraude \xe0 l'IBAN non d\xe9tect\xe9e.","tags",A.c(["Next.js 15","NestJS","PostgreSQL","pgvector","Ollama","BullMQ","Redis","Stripe","Kubernetes","Docker"],s),"badges",A.c(["Monorepo","Multi-tenant","Kubernetes","CI/CD"],s),"videoUrl","assets/InvoiceGuard.mp4"],r,q),A.ah(["title","ContractPulse","subtitle","B2B SaaS \u2014 Suivi de renouvellements contractuels avec chat RAG","year","2026","description","Fini les renouvellements automatiques qui co\xfbtent cher. Les \xe9quipes uploadent leurs PDFs (stock\xe9s sur AWS S3, URLs sign\xe9es 15 min), et la plateforme extrait le contenu, g\xe9n\xe8re des embeddings, et r\xe9pond \xe0 chaque question sur le contrat en citant la page exacte. Alertes automatiques \xe0 90, 30 et 7 jours avant \xe9ch\xe9ance.","tags",A.c(["Next.js 15","NestJS","PostgreSQL","pgvector","Ollama","Groq","AWS S3","BullMQ","Stripe","Jenkins","Docker"],s),"badges",A.c(["Monorepo","Multi-tenant","RAG","CI/CD"],s),"videoUrl","assets/contractpulse.mp4"],r,q),A.ah(["title","ReviewLens","subtitle","B2B SaaS \u2014 Clustering s\xe9mantique d'avis clients et insights IA","year","2026","description","Transforme des centaines d'avis clients en insights actionnables. La plateforme vectorise chaque avis, les regroupe automatiquement par th\xe8me (K-Means + Silhouette) et g\xe9n\xe8re pour chaque cluster un r\xe9sum\xe9 IA, un score de sentiment et une recommandation concr\xe8te \u2014 sans lire un seul avis manuellement.","tags",A.c(["Next.js 15","NestJS","PostgreSQL","pgvector","Ollama","Python","scikit-learn","BullMQ","Docker"],s),"badges",A.c(["Monorepo","Multi-tenant","AI Pipeline","CI/CD"],s),"videoUrl","assets/reviewlens.mp4"],r,q),A.ah(["title","StandupFlow","subtitle","B2B SaaS \u2014 Automatisation des standups asynchrones pour \xe9quipes tech","year","2026","description","Fini les standups chronophages. Chaque membre soumet son update via Slack (slash command + modale Block Kit) ou l'app web. Chaque matin, le manager re\xe7oit par email un digest IA qui synth\xe9tise la progression et les blockers de toute l'\xe9quipe \u2014 sans r\xe9union, sans agr\xe9gation manuelle.","tags",A.c(["Next.js 15","NestJS","PostgreSQL","Groq","Slack API","Stripe","Resend","Sentry","Docker"],s),"badges",A.c(["Monorepo","Multi-tenant","Slack API","CI/CD"],s),"videoUrl","assets/Standupflow.mp4"],r,q)],t.Mq)}()
-$.aCr=function(){var s=t.s,r=t.N,q=t.K
-return A.c([A.ah(["title","InvoiceGuard","subtitle","B2B SaaS \u2014 Duplicate Invoice & Payment Fraud Detection","year","2025","description","Stops supplier fraud before it costs you. Accounting teams upload PDF invoices, the platform runs 4-level analysis \u2014 SHA-256 hash (100%), exact field match (95%), same period \xb15% (70%), semantic HNSW similarity (99%) \u2014 and surfaces real-time alerts ranked by confidence. Zero duplicate payments, zero undetected IBAN fraud.","tags",A.c(["Next.js 15","NestJS","PostgreSQL","pgvector","Ollama","BullMQ","Redis","Stripe","Kubernetes","Docker"],s),"badges",A.c(["Monorepo","Multi-tenant","Kubernetes","CI/CD"],s),"videoUrl","assets/InvoiceGuard.mp4"],r,q),A.ah(["title","ContractPulse","subtitle","B2B SaaS \u2014 Smart Contract Renewal Tracker with RAG Chat","year","2025","description","No more costly auto-renewals slipping through. Teams upload their PDFs (stored on AWS S3 with 15-min signed URLs), the platform extracts the content, generates embeddings, and answers any contract question citing the exact page. Automatic renewal alerts at 90, 30 and 7 days before expiry.","tags",A.c(["Next.js 15","NestJS","PostgreSQL","pgvector","Ollama","Groq","AWS S3","BullMQ","Stripe","Jenkins","Docker"],s),"badges",A.c(["Monorepo","Multi-tenant","RAG","CI/CD"],s),"videoUrl","assets/contractpulse.mp4"],r,q),A.ah(["title","ReviewLens","subtitle","B2B SaaS \u2014 Semantic Customer Review Clustering & AI Insights","year","2025","description","Turns hundreds of customer reviews into actionable insights. The platform embeds each review, auto-groups them by theme (K-Means + Silhouette), then generates per-cluster an AI summary, sentiment score, and concrete recommendation \u2014 without reading a single review manually.","tags",A.c(["Next.js 15","NestJS","PostgreSQL","pgvector","Ollama","Python","scikit-learn","BullMQ","Docker"],s),"badges",A.c(["Monorepo","Multi-tenant","AI Pipeline","CI/CD"],s),"videoUrl","assets/reviewlens.mp4"],r,q),A.ah(["title","StandupFlow","subtitle","B2B SaaS \u2014 Async Standup Automation for Tech Teams","year","2025","description","No more time-wasting standups. Each member submits their update via Slack (slash command + Block Kit modal) or the web app. Every morning, the manager gets an AI-generated email digest summarizing the whole team's progress and blockers \u2014 no meeting, no manual aggregation.","tags",A.c(["Next.js 15","NestJS","PostgreSQL","Groq","Slack API","Stripe","Resend","Sentry","Docker"],s),"badges",A.c(["Monorepo","Multi-tenant","Slack API","CI/CD"],s),"videoUrl","assets/Standupflow.mp4"],r,q)],t.Mq)}()
+return A.c([A.ah(["title","InvoiceGuard","subtitle","B2B SaaS \u2014 D\xe9tection de doublons de factures et fraude au paiement","year","2026","description","Stoppe la fraude fournisseur avant qu'elle ne co\xfbte. Les \xe9quipes comptables uploadent leurs factures PDF, la plateforme les analyse en 4 niveaux \u2014 hash SHA-256 (100%), correspondance exacte (95%), m\xeame p\xe9riode \xb15% (70%), similarit\xe9 s\xe9mantique HNSW (99%) \u2014 et g\xe9n\xe8re des alertes temps r\xe9el class\xe9es par confiance. Z\xe9ro double paiement, z\xe9ro fraude \xe0 l'IBAN non d\xe9tect\xe9e.","tags",A.c(["Next.js 15","NestJS","PostgreSQL","pgvector","Ollama","BullMQ","Redis","Stripe","Kubernetes","Docker"],s),"badges",A.c(["Projet perso","Multi-tenant","Kubernetes","CI/CD"],s),"videoUrl","assets/InvoiceGuard.mp4"],r,q),A.ah(["title","ContractPulse","subtitle","B2B SaaS \u2014 Suivi de renouvellements contractuels avec chat RAG","year","2026","description","Fini les renouvellements automatiques qui co\xfbtent cher. Les \xe9quipes uploadent leurs PDFs (stock\xe9s sur AWS S3, URLs sign\xe9es 15 min), et la plateforme extrait le contenu, g\xe9n\xe8re des embeddings, et r\xe9pond \xe0 chaque question sur le contrat en citant la page exacte. Alertes automatiques \xe0 90, 30 et 7 jours avant \xe9ch\xe9ance.","tags",A.c(["Next.js 15","NestJS","PostgreSQL","pgvector","Ollama","Groq","AWS S3","BullMQ","Stripe","Jenkins","Docker"],s),"badges",A.c(["Projet perso","Multi-tenant","RAG","CI/CD"],s),"videoUrl","assets/contractpulse.mp4"],r,q),A.ah(["title","ReviewLens","subtitle","B2B SaaS \u2014 Clustering s\xe9mantique d'avis clients et insights IA","year","2026","description","Transforme des centaines d'avis clients en insights actionnables. La plateforme vectorise chaque avis, les regroupe automatiquement par th\xe8me (K-Means + Silhouette) et g\xe9n\xe8re pour chaque cluster un r\xe9sum\xe9 IA, un score de sentiment et une recommandation concr\xe8te \u2014 sans lire un seul avis manuellement.","tags",A.c(["Next.js 15","NestJS","PostgreSQL","pgvector","Ollama","Python","scikit-learn","BullMQ","Docker"],s),"badges",A.c(["Projet perso","Multi-tenant","AI Pipeline","CI/CD"],s),"videoUrl","assets/reviewlens.mp4"],r,q),A.ah(["title","StandupFlow","subtitle","B2B SaaS \u2014 Automatisation des standups asynchrones pour \xe9quipes tech","year","2026","description","Fini les standups chronophages. Chaque membre soumet son update via Slack (slash command + modale Block Kit) ou l'app web. Chaque matin, le manager re\xe7oit par email un digest IA qui synth\xe9tise la progression et les blockers de toute l'\xe9quipe \u2014 sans r\xe9union, sans agr\xe9gation manuelle.","tags",A.c(["Next.js 15","NestJS","PostgreSQL","Groq","Slack API","Stripe","Resend","Sentry","Docker"],s),"badges",A.c(["Projet perso","Multi-tenant","Slack API","CI/CD"],s),"videoUrl","assets/Standupflow.mp4"],r,q)],t.Mq)}()
+$.aCr=function(){var s="Personal project",r=t.s,q=t.N,p=t.K
+return A.c([A.ah(["title","InvoiceGuard","subtitle","B2B SaaS \u2014 Duplicate Invoice & Payment Fraud Detection","year","2025","description","Stops supplier fraud before it costs you. Accounting teams upload PDF invoices, the platform runs 4-level analysis \u2014 SHA-256 hash (100%), exact field match (95%), same period \xb15% (70%), semantic HNSW similarity (99%) \u2014 and surfaces real-time alerts ranked by confidence. Zero duplicate payments, zero undetected IBAN fraud.","tags",A.c(["Next.js 15","NestJS","PostgreSQL","pgvector","Ollama","BullMQ","Redis","Stripe","Kubernetes","Docker"],r),"badges",A.c([s,"Multi-tenant","Kubernetes","CI/CD"],r),"videoUrl","assets/InvoiceGuard.mp4"],q,p),A.ah(["title","ContractPulse","subtitle","B2B SaaS \u2014 Smart Contract Renewal Tracker with RAG Chat","year","2025","description","No more costly auto-renewals slipping through. Teams upload their PDFs (stored on AWS S3 with 15-min signed URLs), the platform extracts the content, generates embeddings, and answers any contract question citing the exact page. Automatic renewal alerts at 90, 30 and 7 days before expiry.","tags",A.c(["Next.js 15","NestJS","PostgreSQL","pgvector","Ollama","Groq","AWS S3","BullMQ","Stripe","Jenkins","Docker"],r),"badges",A.c([s,"Multi-tenant","RAG","CI/CD"],r),"videoUrl","assets/contractpulse.mp4"],q,p),A.ah(["title","ReviewLens","subtitle","B2B SaaS \u2014 Semantic Customer Review Clustering & AI Insights","year","2025","description","Turns hundreds of customer reviews into actionable insights. The platform embeds each review, auto-groups them by theme (K-Means + Silhouette), then generates per-cluster an AI summary, sentiment score, and concrete recommendation \u2014 without reading a single review manually.","tags",A.c(["Next.js 15","NestJS","PostgreSQL","pgvector","Ollama","Python","scikit-learn","BullMQ","Docker"],r),"badges",A.c([s,"Multi-tenant","AI Pipeline","CI/CD"],r),"videoUrl","assets/reviewlens.mp4"],q,p),A.ah(["title","StandupFlow","subtitle","B2B SaaS \u2014 Async Standup Automation for Tech Teams","year","2025","description","No more time-wasting standups. Each member submits their update via Slack (slash command + Block Kit modal) or the web app. Every morning, the manager gets an AI-generated email digest summarizing the whole team's progress and blockers \u2014 no meeting, no manual aggregation.","tags",A.c(["Next.js 15","NestJS","PostgreSQL","Groq","Slack API","Stripe","Resend","Sentry","Docker"],r),"badges",A.c([s,"Multi-tenant","Slack API","CI/CD"],r),"videoUrl","assets/Standupflow.mp4"],q,p)],t.Mq)}()
 $.ayA=A.v(t.S,A.au("ayz"))
 $.aoL=null
 $.aoJ=null
@@ -77695,7 +77695,7 @@ r($,"aDS","auL",()=>A.aDk())
 r($,"aKU","av8",()=>A.cP().gN6()+"roboto/v32/KFOmCnqEu92Fr1Me4GZLCzYlKw.woff2")
 r($,"aKj","auI",()=>A.aD4(A.td(A.td(A.je(),"window"),"FinalizationRegistry"),A.ia(new A.ai0())))
 r($,"aLz","avy",()=>new A.a1J())
-s($,"aKq","auN",()=>A.az5(B.FZ))
+s($,"aKq","auN",()=>A.az5(B.G_))
 s($,"aKp","ajo",()=>A.Zn(A.aww($.auN())))
 s($,"aHr","cK",()=>{var q,p=A.z(A.z(A.je(),"window"),"screen")
 p=p==null?null:A.z(p,"width")
@@ -77892,7 +77892,7 @@ s($,"aJN","auk",()=>new A.NL())
 r($,"aJt","au5",()=>{var q=A.au("~(cp<aT>)")
 return A.ah([B.Sa,A.anI(!0),B.S2,A.anI(!1),B.Sq,new A.HW(A.wC(q)),B.Sl,new A.GK(A.wC(q)),B.So,new A.Hl(A.wC(q)),B.S9,new A.EU(A.wC(q)),B.xK,A.aAw(),B.Sp,new A.Ho(A.wC(q)),B.SA,new A.JO(A.wC(q))],t.u,t.od)})
 s($,"aHd","ajh",()=>{var q,p,o,n=t.v,m=A.v(t.Vz,n)
-for(q=A.au("a3"),p=0;p<2;++p){o=B.iM[p]
+for(q=A.au("a3"),p=0;p<2;++p){o=B.iN[p]
 m.N(0,A.ah([A.dN(B.au,!1,!1,!1,o),B.ku,A.dN(B.au,!1,!0,!1,o),B.kx,A.dN(B.au,!0,!1,!1,o),B.kv,A.dN(B.aq,!1,!1,!1,o),B.eG,A.dN(B.aq,!1,!0,!1,o),B.eH,A.dN(B.aq,!0,!1,!1,o),B.kw],q,n))}m.m(0,B.fW,B.eI)
 m.m(0,B.fX,B.eJ)
 m.m(0,B.fY,B.di)
@@ -77952,7 +77952,7 @@ q.m(0,B.jx,B.eK)
 q.m(0,B.jy,B.eL)
 return q})
 s($,"aHj","ami",()=>{var q,p,o,n=t.v,m=A.v(t.Vz,n)
-for(q=A.au("a3"),p=0;p<2;++p){o=B.iM[p]
+for(q=A.au("a3"),p=0;p<2;++p){o=B.iN[p]
 m.N(0,A.ah([A.dN(B.au,!1,!1,!1,o),B.ku,A.dN(B.au,!0,!1,!1,o),B.kx,A.dN(B.au,!1,!1,!0,o),B.kv,A.dN(B.aq,!1,!1,!1,o),B.eG,A.dN(B.aq,!0,!1,!1,o),B.eH,A.dN(B.aq,!1,!1,!0,o),B.kw],q,n))}m.m(0,B.fW,B.eI)
 m.m(0,B.fX,B.eJ)
 m.m(0,B.fY,B.di)
@@ -78015,7 +78015,7 @@ q.m(0,B.jx,B.eK)
 q.m(0,B.jy,B.eL)
 return q})
 s($,"aHk","amj",()=>{var q,p,o,n=t.v,m=A.v(t.Vz,n)
-for(q=A.au("a3"),p=0;p<2;++p){o=B.iM[p]
+for(q=A.au("a3"),p=0;p<2;++p){o=B.iN[p]
 m.N(0,A.ah([A.dN(B.au,!1,!1,!1,o),B.o,A.dN(B.aq,!1,!1,!1,o),B.o,A.dN(B.au,!0,!1,!1,o),B.o,A.dN(B.aq,!0,!1,!1,o),B.o,A.dN(B.au,!1,!0,!1,o),B.o,A.dN(B.aq,!1,!0,!1,o),B.o,A.dN(B.au,!1,!1,!0,o),B.o,A.dN(B.aq,!1,!1,!0,o),B.o],q,n))}m.N(0,B.rm)
 m.m(0,B.wZ,B.o)
 m.m(0,B.wW,B.o)
